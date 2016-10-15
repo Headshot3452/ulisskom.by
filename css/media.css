@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+  /* line 2, media.scss */
+  header .head-mid .row > .cart {
+    height: 20px;
+    text-align: left; } }

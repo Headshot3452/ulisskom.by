@@ -1,0 +1,2666 @@
+/* line 25, backend_manenok.scss */
+.top-border {
+  border-top: 1px solid #e4e4e4;
+}
+
+/* line 29, backend_manenok.scss */
+.font-12 {
+  font-size: 12px;
+}
+
+/* line 33, backend_manenok.scss */
+.underline {
+  text-decoration: underline;
+}
+
+/* line 37, backend_manenok.scss */
+.fa.fa-star {
+  color: #f59110;
+}
+
+/* line 41, backend_manenok.scss */
+.fa.fa-star-o {
+  color: #979797;
+}
+
+/* line 45, backend_manenok.scss */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* line 49, backend_manenok.scss */
+.fa.color-yellow,
+.color-yellow {
+  color: #ffc000;
+}
+
+/* line 54, backend_manenok.scss */
+.fa.color-red,
+.color-red {
+  color: #ff0000;
+}
+
+/* line 59, backend_manenok.scss */
+.fa.color-green,
+.color-green {
+  color: #009f00;
+}
+
+/* line 64, backend_manenok.scss */
+.fa.color-primary,
+.color-primary {
+  color: #1242e3;
+}
+
+/* line 69, backend_manenok.scss */
+.fa.color-gray,
+.color-gray {
+  color: #999;
+}
+
+/* line 74, backend_manenok.scss */
+.color-orange {
+  color: #fb6b00;
+}
+
+/* line 78, backend_manenok.scss */
+.no-padding {
+  padding: 0 !important;
+}
+
+/* line 82, backend_manenok.scss */
+textarea.form-control {
+  height: auto !important;
+}
+
+/* line 86, backend_manenok.scss */
+div.fa-file-text-o {
+  margin-right: 5px;
+  color: #009f00;
+}
+
+/* line 91, backend_manenok.scss */
+.btn.btn-gray {
+  color: #e4e4e4;
+  text-shadow: none;
+  background-image: linear-gradient(to bottom, #bababa 0, #979797 100%);
+}
+/* line 95, backend_manenok.scss */
+.btn.btn-gray:hover {
+  background-image: linear-gradient(to bottom, #979797 0, #bababa 100%);
+}
+
+/* line 106, backend_manenok.scss */
+#user_setting h2,
+#rewiew-settins-form h2,
+.review_list h2,
+.user_list h2,
+#gallery-products-product-form h2,
+#gallery-form h2 {
+  font-size: 18px;
+  color: #000000;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 26px;
+  padding-left: 5px;
+}
+/* line 115, backend_manenok.scss */
+#user_setting h3,
+#rewiew-settins-form h3,
+.review_list h3,
+.user_list h3,
+#gallery-products-product-form h3,
+#gallery-form h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+}
+/* line 125, backend_manenok.scss */
+#user_setting h5,
+#rewiew-settins-form h5,
+.review_list h5,
+.user_list h5,
+#gallery-products-product-form h5,
+#gallery-form h5 {
+  padding-left: 0;
+  margin-top: 5px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  color: #000000;
+}
+/* line 138, backend_manenok.scss */
+#user_setting .px span,
+#rewiew-settins-form .px span,
+.review_list .px span,
+.user_list .px span,
+#gallery-products-product-form .px span,
+#gallery-form .px span {
+  color: #979797;
+}
+/* line 141, backend_manenok.scss */
+#user_setting .px input,
+#rewiew-settins-form .px input,
+.review_list .px input,
+.user_list .px input,
+#gallery-products-product-form .px input,
+#gallery-form .px input {
+  width: 80%;
+  display: inline-block;
+}
+/* line 146, backend_manenok.scss */
+#user_setting .help-inline,
+#user_setting .error,
+#rewiew-settins-form .help-inline,
+#rewiew-settins-form .error,
+.review_list .help-inline,
+.review_list .error,
+.user_list .help-inline,
+.user_list .error,
+#gallery-products-product-form .help-inline,
+#gallery-products-product-form .error,
+#gallery-form .help-inline,
+#gallery-form .error {
+  color: #B94A48;
+  border-color: #B94A48;
+}
+/* line 151, backend_manenok.scss */
+#user_setting .help-inline,
+#rewiew-settins-form .help-inline,
+.review_list .help-inline,
+.user_list .help-inline,
+#gallery-products-product-form .help-inline,
+#gallery-form .help-inline {
+  position: absolute;
+  font-size: 12px;
+}
+
+/* line 159, backend_manenok.scss */
+.menu-list .menu-item img {
+  max-width: 48px;
+  max-height: 48px;
+  background-color: #efefef;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.44);
+}
+/* line 167, backend_manenok.scss */
+.menu-list .menu-item:hover img {
+  background-color: #fff;
+  border-radius: 0px;
+  border: 1px solid #cfcfcf;
+  box-shadow: none;
+}
+
+/* line 177, backend_manenok.scss */
+span.reset {
+  position: relative;
+  left: -4px;
+  width: 40px;
+  height: 30px;
+  display: inline-block;
+  background: url("/images/icon-admin/reset.png") 2px 0 no-repeat;
+}
+
+/* line 186, backend_manenok.scss */
+.img-key {
+  width: 16px;
+  height: 12px;
+  display: inline-block;
+  background: url("/images/icon-admin/key.png") 2px 0 no-repeat;
+}
+
+/* line 193, backend_manenok.scss */
+.main-title-block {
+  height: 74px;
+  vertical-align: middle;
+}
+/* line 196, backend_manenok.scss */
+.main-title-block.main-title {
+  padding-top: 20px;
+}
+/* line 197, backend_manenok.scss */
+.main-title-block.main-title .menu-back {
+  position: relative;
+  top: -20px;
+  display: inline-block;
+  margin-right: 5px;
+  height: 74px;
+  line-height: 74px;
+  text-align: center;
+  width: 30px;
+}
+/* line 206, backend_manenok.scss */
+.main-title-block.main-title .menu-back:hover {
+  color: #3d3d3d;
+  background-color: #d9d9d9;
+}
+/* line 212, backend_manenok.scss */
+.main-title-block.main-title .title {
+  font-size: 30px;
+}
+/* line 216, backend_manenok.scss */
+.main-title-block.module-title {
+  background-color: #e4e4e4;
+  border: 1px solid #cfcfcf;
+  padding-top: 25px;
+}
+/* line 220, backend_manenok.scss */
+.main-title-block.module-title .title {
+  font-size: 24px;
+  float: left;
+}
+/* line 225, backend_manenok.scss */
+.main-title-block.module-title .top-filter .title {
+  margin-top: 15px;
+  font-weight: normal !important;
+}
+/* line 229, backend_manenok.scss */
+.main-title-block.module-title .top-filter .fa {
+  margin-top: 16px;
+}
+/* line 233, backend_manenok.scss */
+.main-title-block.module-title .menu-back, .main-title-block.module-title .fa.fa-angle-left {
+  line-height: 20px;
+  font-size: 25px;
+}
+/* line 237, backend_manenok.scss */
+.main-title-block.module-title .title-block {
+  float: left;
+  padding-top: 25px;
+}
+/* line 240, backend_manenok.scss */
+.main-title-block.module-title .title-block .date {
+  font-size: 12px;
+  padding-left: 25px;
+}
+/* line 245, backend_manenok.scss */
+.main-title-block.module-title .container {
+  position: relative;
+  padding-left: 52px;
+}
+/* line 250, backend_manenok.scss */
+.main-title-block.module-title .container > a span.pull-left {
+  z-index: 1000;
+  display: block;
+  position: absolute;
+  top: -25px;
+  left: 15px;
+  line-height: 73px !important;
+  height: 73px;
+  width: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 263, backend_manenok.scss */
+.main-title-block.module-title .container > a:hover span {
+  color: #3d3d3d;
+  background-color: #d9d9d9;
+}
+/* line 269, backend_manenok.scss */
+.main-title-block.module-title a:hover {
+  text-decoration: none;
+}
+/* line 275, backend_manenok.scss */
+.main-title-block.module-title .order-block .price-block, .main-title-block.module-title .order-block .status-block {
+  margin-left: 60px;
+  float: left;
+}
+/* line 279, backend_manenok.scss */
+.main-title-block.module-title .order-block .price-block {
+  font-size: 16px;
+  margin-top: 20px;
+}
+/* line 282, backend_manenok.scss */
+.main-title-block.module-title .order-block .price-block > * {
+  float: left;
+}
+/* line 285, backend_manenok.scss */
+.main-title-block.module-title .order-block .price-block .price {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* line 289, backend_manenok.scss */
+.main-title-block.module-title .order-block .price-block .number {
+  color: #1242e3;
+}
+/* line 292, backend_manenok.scss */
+.main-title-block.module-title .order-block .price-block .cur {
+  color: #979797;
+}
+/* line 296, backend_manenok.scss */
+.main-title-block.module-title .order-block .status-block {
+  margin-top: 10px;
+}
+/* line 299, backend_manenok.scss */
+.main-title-block.module-title .order-block .gray-title {
+  color: #979797;
+  margin-bottom: 5px;
+}
+/* line 305, backend_manenok.scss */
+.main-title-block .title {
+  float: left;
+}
+/* line 308, backend_manenok.scss */
+.main-title-block .menu-back {
+  font-size: 30px;
+  margin-right: 15px;
+  padding: 0 5px;
+  float: left;
+}
+/* line 314, backend_manenok.scss */
+.main-title-block .dropdown {
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+/* line 318, backend_manenok.scss */
+.main-title-block .dropdown .btn {
+  padding: 2px 6px;
+}
+
+/* line 324, backend_manenok.scss */
+.review_list.items,
+.user_list {
+  position: relative;
+  width: 940px;
+  margin-left: -15px;
+}
+/* line 331, backend_manenok.scss */
+.review_list.items .pagination .bootstrap-select.btn-group,
+.user_list .pagination .bootstrap-select.btn-group {
+  width: 45px;
+  display: inline;
+}
+/* line 335, backend_manenok.scss */
+.review_list.items .pagination .bootstrap-select.btn-group .dropdown-menu,
+.user_list .pagination .bootstrap-select.btn-group .dropdown-menu {
+  min-width: 20px;
+  width: 102px;
+  border-radius: 0;
+  left: 0px;
+  top: 26px;
+}
+/* line 343, backend_manenok.scss */
+.review_list.items .pagination .bootstrap-select.btn-group .dropdown-menu ul li a,
+.user_list .pagination .bootstrap-select.btn-group .dropdown-menu ul li a {
+  width: 100%;
+  padding-left: 10px;
+}
+/* line 346, backend_manenok.scss */
+.review_list.items .pagination .bootstrap-select.btn-group .dropdown-menu ul li a:hover,
+.user_list .pagination .bootstrap-select.btn-group .dropdown-menu ul li a:hover {
+  background: #004cff;
+  color: #fff;
+}
+/* line 351, backend_manenok.scss */
+.review_list.items .pagination .bootstrap-select.btn-group .dropdown-menu ul li.selected a,
+.user_list .pagination .bootstrap-select.btn-group .dropdown-menu ul li.selected a {
+  border: none;
+  background: #1242e3;
+  color: #fff;
+}
+/* line 359, backend_manenok.scss */
+.review_list.items .pagination .bootstrap-select.btn-group .caret,
+.user_list .pagination .bootstrap-select.btn-group .caret {
+  position: absolute;
+  top: 50%;
+  right: 2px;
+  margin-top: -2px;
+  vertical-align: middle;
+}
+/* line 366, backend_manenok.scss */
+.review_list.items .pagination .bootstrap-select.btn-group .dropdown-toggle,
+.user_list .pagination .bootstrap-select.btn-group .dropdown-toggle {
+  border-left: none;
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+  height: 30px;
+  width: 45px;
+  min-width: 40px;
+  padding-left: 3px;
+}
+/* line 375, backend_manenok.scss */
+.review_list.items .pagination .bootstrap-select.btn-group .dropdown-toggle .caret,
+.user_list .pagination .bootstrap-select.btn-group .dropdown-toggle .caret {
+  right: 2px;
+}
+/* line 378, backend_manenok.scss */
+.review_list.items .pagination .bootstrap-select.btn-group .dropdown-toggle .filter-option,
+.user_list .pagination .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+  width: 23px;
+  text-align: right;
+}
+/* line 389, backend_manenok.scss */
+.review_list.items .bootstrap-select.btn-group .dropdown-menu,
+.user_list .bootstrap-select.btn-group .dropdown-menu {
+  min-width: 20px;
+  width: 55px;
+  border-radius: 0;
+  left: -40px;
+  top: 23px;
+}
+/* line 397, backend_manenok.scss */
+.review_list.items .bootstrap-select.btn-group .dropdown-menu ul li a,
+.user_list .bootstrap-select.btn-group .dropdown-menu ul li a {
+  padding-left: 10px;
+}
+/* line 399, backend_manenok.scss */
+.review_list.items .bootstrap-select.btn-group .dropdown-menu ul li a:hover,
+.user_list .bootstrap-select.btn-group .dropdown-menu ul li a:hover {
+  background: #004cff;
+  color: #fff;
+}
+/* line 404, backend_manenok.scss */
+.review_list.items .bootstrap-select.btn-group .dropdown-menu ul li.selected a,
+.user_list .bootstrap-select.btn-group .dropdown-menu ul li.selected a {
+  border: none;
+  background: #1242e3;
+  color: #fff;
+}
+/* line 414, backend_manenok.scss */
+.review_list.items .bootstrap-select.btn-group .caret,
+.user_list .bootstrap-select.btn-group .caret {
+  position: absolute;
+  top: 50%;
+  right: 2px;
+  margin-top: -2px;
+  vertical-align: middle;
+}
+/* line 421, backend_manenok.scss */
+.review_list.items .bootstrap-select.btn-group .dropdown-toggle,
+.user_list .bootstrap-select.btn-group .dropdown-toggle {
+  padding-left: 3px;
+}
+/* line 423, backend_manenok.scss */
+.review_list.items .bootstrap-select.btn-group .dropdown-toggle .caret,
+.user_list .bootstrap-select.btn-group .dropdown-toggle .caret {
+  right: 2px;
+}
+/* line 426, backend_manenok.scss */
+.review_list.items .bootstrap-select.btn-group .dropdown-toggle .filter-option,
+.user_list .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+  width: 23px;
+  text-align: center;
+}
+/* line 433, backend_manenok.scss */
+.review_list.items .fa-angle-left:before, .review_list.items .fa-angle-right:before,
+.user_list .fa-angle-left:before,
+.user_list .fa-angle-right:before {
+  vertical-align: -3px;
+  position: relative;
+  left: 9px;
+}
+/* line 438, backend_manenok.scss */
+.review_list.items .product_for_page,
+.user_list .product_for_page {
+  position: absolute;
+  left: 100%;
+}
+/* line 442, backend_manenok.scss */
+.review_list.items .product_for_page.bootstrap-select,
+.user_list .product_for_page.bootstrap-select {
+  height: 0 !important;
+  width: 0 !important;
+  border: none !important;
+}
+/* line 447, backend_manenok.scss */
+.review_list.items .product_for_page button,
+.user_list .product_for_page button {
+  position: absolute;
+  margin-top: 0px;
+  right: 0px;
+  border: 1px solid #d1d1d1;
+  border-radius: 3px;
+  width: 40px;
+  font-size: 12px;
+  height: 27px;
+  background: linear-gradient(to top, #e8e8e8, #fff);
+}
+/* line 459, backend_manenok.scss */
+.review_list.items .pag-cont,
+.user_list .pag-cont {
+  float: right;
+  margin-right: 92px;
+}
+/* line 464, backend_manenok.scss */
+.review_list.items .pag-cont ul.pagination li a,
+.user_list .pag-cont ul.pagination li a {
+  width: 29px;
+  height: 30px;
+  padding: 0;
+}
+/* line 471, backend_manenok.scss */
+.review_list.items .pag-cont .dropdown.dropdown-select,
+.user_list .pag-cont .dropdown.dropdown-select {
+  display: inline-block;
+  padding-left: 0;
+  float: right;
+  margin: 7px 0 20px 46px;
+  border-radius: 4px;
+}
+/* line 477, backend_manenok.scss */
+.review_list.items .pag-cont .dropdown.dropdown-select .btn,
+.user_list .pag-cont .dropdown.dropdown-select .btn {
+  font-size: 12px;
+  width: 40px;
+  height: 27px;
+  padding: 0;
+  padding-top: 1px;
+}
+/* line 485, backend_manenok.scss */
+.review_list.items .pag-cont .pagination,
+.user_list .pag-cont .pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 5px 0 16px;
+  border-radius: 4px;
+}
+/* line 491, backend_manenok.scss */
+.review_list.items .pag-cont .pagination li a,
+.user_list .pag-cont .pagination li a {
+  padding: 4px 9px;
+  font-size: 14px;
+  color: #343434;
+}
+/* line 495, backend_manenok.scss */
+.review_list.items .pag-cont .pagination li a:hover,
+.user_list .pag-cont .pagination li a:hover {
+  background-color: #004cff !important;
+  color: white !important;
+}
+/* line 502, backend_manenok.scss */
+.review_list.items .pag-cont .pagination select,
+.user_list .pag-cont .pagination select {
+  text-align: center;
+  border-color: #dddddd;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px;
+  box-shadow: none;
+  display: inline-block;
+  width: 47px;
+  padding: 0;
+  float: left;
+  height: 30px;
+  margin-top: 0;
+}
+/* line 503, backend_manenok.scss */
+.review_list.items .pag-cont .pagination select option,
+.user_list .pag-cont .pagination select option {
+  text-align: center;
+}
+/* line 520, backend_manenok.scss */
+.review_list.items .form-control,
+.user_list .form-control {
+  border-radius: none;
+}
+/* line 523, backend_manenok.scss */
+.review_list.items .table,
+.user_list .table {
+  font-size: 12px;
+  color: #999999;
+}
+/* line 527, backend_manenok.scss */
+.review_list.items input[type="checkbox"] + label:not(.status),
+.user_list input[type="checkbox"] + label:not(.status) {
+  margin: 0;
+  margin-top: 20px;
+}
+/* line 531, backend_manenok.scss */
+.review_list.items .checkbox label,
+.user_list .checkbox label {
+  padding-left: 6px;
+}
+
+/* line 536, backend_manenok.scss */
+table#table-sotrudniki.table-hover > tbody > tr:hover > td {
+  background-color: #e4e4e4;
+}
+
+/* line 540, backend_manenok.scss */
+#table-sotrudniki {
+  border-spacing: 0;
+}
+/* line 543, backend_manenok.scss */
+#table-sotrudniki thead td {
+  max-height: 30px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+/* line 544, backend_manenok.scss */
+#table-sotrudniki thead td:nth-child(1) {
+  padding-top: 2px;
+  padding-right: 0px;
+  width: 8.5%;
+}
+/* line 549, backend_manenok.scss */
+#table-sotrudniki thead td:nth-child(2) {
+  padding-left: 0;
+  width: 36%;
+}
+/* line 553, backend_manenok.scss */
+#table-sotrudniki thead td:nth-child(3) {
+  width: 20%;
+}
+/* line 556, backend_manenok.scss */
+#table-sotrudniki thead td:nth-child(4) {
+  width: 16%;
+}
+/* line 559, backend_manenok.scss */
+#table-sotrudniki thead td:nth-child(5) {
+  width: 13%;
+}
+/* line 562, backend_manenok.scss */
+#table-sotrudniki thead td:nth-child(6) {
+  width: 6%;
+}
+/* line 565, backend_manenok.scss */
+#table-sotrudniki thead td .btn-group.checkbox {
+  margin-top: 0;
+  margin-left: 8px;
+  margin-bottom: 5px;
+}
+/* line 566, backend_manenok.scss */
+#table-sotrudniki thead td .btn-group.checkbox.open {
+  border-bottom: none;
+}
+/* line 568, backend_manenok.scss */
+#table-sotrudniki thead td .btn-group.checkbox.open > .dropdown-menu {
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: -1px;
+}
+/* line 572, backend_manenok.scss */
+#table-sotrudniki thead td .btn-group.checkbox.open > .dropdown-menu > li > a:hover {
+  background: #1242e3;
+  color: #fff;
+}
+/* line 587, backend_manenok.scss */
+#table-sotrudniki tbody {
+  cursor: pointer;
+}
+/* line 589, backend_manenok.scss */
+#table-sotrudniki tbody tr {
+  height: 97px;
+}
+/* line 592, backend_manenok.scss */
+#table-sotrudniki tbody tr:hover .user, #table-sotrudniki tbody tr:hover .number-user, #table-sotrudniki tbody tr:hover .mail, #table-sotrudniki tbody tr:hover .phone {
+  color: #1242e3;
+}
+/* line 597, backend_manenok.scss */
+#table-sotrudniki tbody td {
+  padding-top: 20px;
+  border: none;
+}
+/* line 598, backend_manenok.scss */
+#table-sotrudniki tbody td:nth-child(1) {
+  padding-left: 23px;
+  width: 8.5%;
+}
+/* line 602, backend_manenok.scss */
+#table-sotrudniki tbody td:nth-child(2) {
+  padding-left: 0;
+  width: 36%;
+}
+/* line 603, backend_manenok.scss */
+#table-sotrudniki tbody td:nth-child(2) .table-img {
+  margin-top: 2px;
+}
+/* line 609, backend_manenok.scss */
+#table-sotrudniki tbody td:nth-child(3) {
+  width: 20%;
+}
+/* line 612, backend_manenok.scss */
+#table-sotrudniki tbody td:nth-child(4) {
+  width: 16%;
+}
+/* line 615, backend_manenok.scss */
+#table-sotrudniki tbody td:nth-child(5) {
+  width: 13%;
+}
+/* line 618, backend_manenok.scss */
+#table-sotrudniki tbody td:nth-child(6) {
+  width: 6%;
+  text-align: center;
+}
+/* line 622, backend_manenok.scss */
+#table-sotrudniki tbody td .v-seti {
+  color: #009f00;
+}
+/* line 625, backend_manenok.scss */
+#table-sotrudniki tbody td .user, #table-sotrudniki tbody td .create, #table-sotrudniki tbody td .redact, #table-sotrudniki tbody td .role {
+  color: #000000;
+}
+/* line 630, backend_manenok.scss */
+#table-sotrudniki tbody td .table-img {
+  margin-right: 9px;
+  float: left;
+}
+/* line 633, backend_manenok.scss */
+#table-sotrudniki tbody td .table-img img {
+  width: 60px;
+  height: 60px;
+}
+/* line 640, backend_manenok.scss */
+#table-sotrudniki .btn-small.btn-active {
+  margin-left: 0;
+}
+
+/* line 647, backend_manenok.scss */
+.user_settings span.dash,
+.one_item.users span.dash {
+  position: absolute;
+  right: 178px;
+}
+/* line 651, backend_manenok.scss */
+.user_settings .btn.btn-default,
+.one_item.users .btn.btn-default {
+  width: 40px;
+  height: 30px;
+  position: relative;
+  top: -3px;
+}
+/* line 657, backend_manenok.scss */
+.user_settings .img-cont,
+.one_item.users .img-cont {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #cfcfcf;
+  background-color: #fff;
+  padding: 0;
+  margin-top: -13px;
+  margin-left: 15px;
+  margin-right: 14px;
+}
+/* line 666, backend_manenok.scss */
+.user_settings .img-cont img,
+.one_item.users .img-cont img {
+  padding-top: 8px;
+  padding-left: 12px;
+}
+/* line 671, backend_manenok.scss */
+.user_settings .form-group,
+.one_item.users .form-group {
+  position: relative;
+  float: left;
+  margin-top: -3px;
+}
+/* line 675, backend_manenok.scss */
+.user_settings .form-group:nth-child(1), .user_settings .form-group:nth-child(2),
+.one_item.users .form-group:nth-child(1),
+.one_item.users .form-group:nth-child(2) {
+  width: 180px;
+  margin-right: 20px;
+}
+/* line 679, backend_manenok.scss */
+.user_settings .form-group:nth-child(3), .user_settings .form-group:nth-child(4),
+.one_item.users .form-group:nth-child(3),
+.one_item.users .form-group:nth-child(4) {
+  width: 100px;
+}
+/* line 682, backend_manenok.scss */
+.user_settings .form-group:nth-child(3),
+.one_item.users .form-group:nth-child(3) {
+  margin-right: 20px;
+}
+/* line 685, backend_manenok.scss */
+.user_settings .form-group:nth-child(4),
+.one_item.users .form-group:nth-child(4) {
+  margin-right: 8px;
+}
+/* line 688, backend_manenok.scss */
+.user_settings .form-group label,
+.one_item.users .form-group label {
+  margin-top: -17px;
+  position: absolute;
+  font-size: 12px;
+  color: #999999;
+}
+/* line 694, backend_manenok.scss */
+.user_settings .form-group input, .user_settings .form-group select,
+.one_item.users .form-group input,
+.one_item.users .form-group select {
+  height: 31px;
+  width: 100%;
+  outline: none;
+  border-radius: 0;
+  border: 1px solid #dadada;
+  padding-left: 5px;
+}
+/* line 703, backend_manenok.scss */
+.user_settings .glyphicon-search,
+.one_item.users .glyphicon-search {
+  margin-top: -23px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+/* line 708, backend_manenok.scss */
+.user_settings .title,
+.one_item.users .title {
+  margin-right: 13px;
+}
+
+/* line 714, backend_manenok.scss */
+#user_setting .help-inline {
+  position: absolute;
+  bottom: -15px;
+  font-size: 83%;
+  color: #ff0000;
+}
+/* line 720, backend_manenok.scss */
+#user_setting .nav li a {
+  border-radius: 0;
+}
+/* line 724, backend_manenok.scss */
+#user_setting #profile .information .form-group {
+  margin-right: 20px;
+}
+/* line 725, backend_manenok.scss */
+#user_setting #profile .information .form-group .inf {
+  padding-left: 0px;
+}
+/* line 730, backend_manenok.scss */
+#user_setting #profile .information label.control-label {
+  text-align: right;
+  padding-right: 15px;
+}
+
+/* line 737, backend_manenok.scss */
+.pagination {
+  margin-top: 8px;
+}
+/* line 741, backend_manenok.scss */
+.pagination ul.pagination.pagination-sm li a {
+  color: #000000;
+}
+/* line 744, backend_manenok.scss */
+.pagination ul.pagination.pagination-sm li.active a {
+  color: #fff;
+  border-color: #0849e1;
+  background-color: #0849e1;
+}
+/* line 749, backend_manenok.scss */
+.pagination ul.pagination.pagination-sm li a:hover {
+  color: #fff;
+  background-color: #004cff;
+  border-color: #004cff;
+}
+
+/* line 758, backend_manenok.scss */
+#ui-datepicker-div {
+  z-index: 2 !important;
+  padding: 0px;
+  width: 225px;
+}
+/* line 762, backend_manenok.scss */
+#ui-datepicker-div .ui-datepicker-header {
+  height: 36px;
+  font-weight: normal;
+  background: none;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #cfcfcf;
+}
+/* line 763, backend_manenok.scss */
+#ui-datepicker-div .ui-datepicker-header .ui-datepicker-title {
+  font-size: 14px;
+  color: #999999;
+  font-weight: normal;
+}
+/* line 768, backend_manenok.scss */
+#ui-datepicker-div .ui-datepicker-header .ui-icon, #ui-datepicker-div .ui-datepicker-header .ui-widget-content .ui-icon {
+  background: none;
+  font-family: 'FontAwesome';
+  text-indent: 0px;
+}
+/* line 782, backend_manenok.scss */
+#ui-datepicker-div table thead th {
+  font-weight: normal;
+}
+/* line 787, backend_manenok.scss */
+#ui-datepicker-div table tbody a {
+  background: none;
+  border: none;
+  color: #000000;
+  border-radius: 3px;
+  text-align: center;
+}
+/* line 788, backend_manenok.scss */
+#ui-datepicker-div table tbody a:hover {
+  background: #004cff;
+  color: #fff;
+}
+/* line 798, backend_manenok.scss */
+#ui-datepicker-div table tbody td {
+  text-align: center;
+}
+/* line 800, backend_manenok.scss */
+#ui-datepicker-div table tbody td.ui-datepicker-today a, #ui-datepicker-div table tbody td:hover {
+  border-radius: 3px;
+  color: #fff;
+  background: #1242e3;
+}
+/* line 805, backend_manenok.scss */
+#ui-datepicker-div table tbody td.ui-state-disabled .ui-state-default {
+  background: none;
+  border: none;
+  color: #999999;
+}
+
+/* line 815, backend_manenok.scss */
+.form-horizontal .control-label {
+  color: #979797;
+}
+
+/* line 820, backend_manenok.scss */
+.form-group.comment {
+  margin-left: 15px;
+}
+/* line 823, backend_manenok.scss */
+.form-group .form-control {
+  border-radius: 0;
+  color: #000000;
+  line-height: 16px;
+  height: 30px;
+}
+/* line 824, backend_manenok.scss */
+.form-group .form-control#Users_password {
+  width: 80%;
+}
+/* line 832, backend_manenok.scss */
+.form-group #changePsw {
+  position: absolute;
+  top: -1px;
+  right: 15px;
+}
+
+/* line 841, backend_manenok.scss */
+#user_item_setting {
+  font-size: 14px;
+  line-height: 15px;
+}
+/* line 842, backend_manenok.scss */
+#user_item_setting .date-time {
+  margin-left: 10px;
+  color: #979797;
+}
+/* line 847, backend_manenok.scss */
+#user_item_setting .number-user {
+  margin-left: 0px;
+}
+/* line 852, backend_manenok.scss */
+#user_item_setting .table-img {
+  margin-top: -18px;
+}
+/* line 854, backend_manenok.scss */
+#user_item_setting .table-img img {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin-left: 0px;
+  margin-top: -1px;
+  margin-right: 10px;
+}
+/* line 864, backend_manenok.scss */
+#user_item_setting .number-user .title-icon, #user_item_setting .mail .title-icon, #user_item_setting .phone .title-icon, #user_item_setting .user .title-icon {
+  margin-right: 5px;
+}
+/* line 868, backend_manenok.scss */
+#user_item_setting .number-user, #user_item_setting .mail, #user_item_setting .phone {
+  color: #979797;
+}
+/* line 871, backend_manenok.scss */
+#user_item_setting .user_settings {
+  position: absolute;
+  top: 0px;
+  right: 12px;
+  display: inline-block;
+}
+/* line 876, backend_manenok.scss */
+#user_item_setting .user_settings div {
+  display: inline-block;
+}
+/* line 879, backend_manenok.scss */
+#user_item_setting .user_settings .form-group {
+  width: 260px;
+}
+/* line 882, backend_manenok.scss */
+#user_item_setting .user_settings a.btn {
+  margin-right: 40px;
+  margin-left: 10px;
+  height: 25px;
+  padding-top: 4px;
+  padding-bottom: 0;
+}
+/* line 889, backend_manenok.scss */
+#user_item_setting .user_settings button.btn-default {
+  top: 0;
+  height: 25px;
+  padding: 0;
+}
+/* line 893, backend_manenok.scss */
+#user_item_setting .user_settings button.btn-default:hover {
+  color: #fff;
+  text-shadow: none;
+  background: #1242e3;
+}
+/* line 899, backend_manenok.scss */
+#user_item_setting .user_settings .dropdown-menu {
+  left: 255px;
+  top: 25px;
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: -1px;
+}
+/* line 905, backend_manenok.scss */
+#user_item_setting .user_settings .dropdown-menu > li > a:hover {
+  background: #1242e3;
+  color: #fff;
+}
+
+/* line 916, backend_manenok.scss */
+#gallery-products-product-form h3,
+#gallery-form h3 {
+  margin-bottom: 0;
+}
+/* line 919, backend_manenok.scss */
+#gallery-products-product-form #load_from_disk,
+#gallery-form #load_from_disk {
+  padding: 5px;
+  margin: auto;
+  width: 55%;
+  height: 10%;
+  z-index: 1;
+}
+/* line 927, backend_manenok.scss */
+#gallery-products-product-form .qq-upload-list,
+#gallery-form .qq-upload-list {
+  display: none;
+}
+/* line 930, backend_manenok.scss */
+#gallery-products-product-form .avatar,
+#gallery-form .avatar {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  left: -140px;
+  top: 0px;
+}
+/* line 931, backend_manenok.scss */
+#gallery-products-product-form .avatar .close-img,
+#gallery-form .avatar .close-img {
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 256px;
+  cursor: pointer;
+}
+/* line 938, backend_manenok.scss */
+#gallery-products-product-form .avatar:hover .film #load_from_disk,
+#gallery-form .avatar:hover .film #load_from_disk {
+  display: block;
+  z-index: 1001;
+}
+/* line 942, backend_manenok.scss */
+#gallery-products-product-form .avatar img#avatar,
+#gallery-form .avatar img#avatar {
+  left: 140px;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  overflow: hidden;
+  z-index: 1000;
+}
+/* line 949, backend_manenok.scss */
+#gallery-products-product-form .avatar img#avatar:hover,
+#gallery-form .avatar img#avatar:hover {
+  opacity: 0.3 !important;
+}
+/* line 959, backend_manenok.scss */
+#gallery-products-product-form .profile-avatar .film,
+#gallery-form .profile-avatar .film {
+  position: absolute;
+  bottom: 120px;
+  left: 150px;
+  text-align: center;
+  font-size: 12px;
+  width: 140px;
+  height: 100%;
+}
+
+/* line 971, backend_manenok.scss */
+#products-list .one_item.gallery_images {
+  position: relative;
+}
+/* line 972, backend_manenok.scss */
+#products-list .one_item.gallery_images .status_id {
+  padding-right: 0;
+}
+/* line 973, backend_manenok.scss */
+#products-list .one_item.gallery_images .status_id label {
+  color: #cfcfcf;
+  display: block;
+  margin-top: 0px;
+  padding-top: 4px;
+}
+/* line 974, backend_manenok.scss */
+#products-list .one_item.gallery_images .status_id label::before {
+  margin-right: 0px;
+}
+/* line 982, backend_manenok.scss */
+#products-list .one_item.gallery_images .status_id .status {
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 23px;
+}
+/* line 991, backend_manenok.scss */
+#products-list .one_item.gallery_images:after {
+  position: absolute;
+  right: 10px;
+  top: 30px;
+  content: url("/images/drag_drop.png");
+  float: right;
+}
+/* line 998, backend_manenok.scss */
+#products-list .one_item.gallery_images .image {
+  border: 1px solid #cfcfcf;
+  width: 75px;
+  height: 75px;
+}
+/* line 1002, backend_manenok.scss */
+#products-list .one_item.gallery_images .image img {
+  margin-top: 0;
+}
+/* line 1006, backend_manenok.scss */
+#products-list .one_item.gallery_images .name {
+  min-height: 65px;
+}
+/* line 1008, backend_manenok.scss */
+#products-list .one_item.gallery_images .name a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+/* line 1014, backend_manenok.scss */
+#products-list a:hover .fa {
+  color: #fff;
+}
+
+/* line 1020, backend_manenok.scss */
+#gallery-products-product-form h2 {
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+/* line 1024, backend_manenok.scss */
+#gallery-products-product-form .form-group.image {
+  padding: 0;
+  margin-left: 15px;
+}
+/* line 1028, backend_manenok.scss */
+#gallery-products-product-form .gallery-avatar {
+  width: 325px;
+  height: 325px;
+  top: 0;
+  left: 15px;
+  position: absolute;
+}
+/* line 1034, backend_manenok.scss */
+#gallery-products-product-form .gallery-avatar .film {
+  opacity: 1;
+  width: 325px;
+  height: 325px;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+/* line 1036, backend_manenok.scss */
+#gallery-products-product-form .gallery-avatar .film:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  opacity: 1 !important;
+}
+/* line 1040, backend_manenok.scss */
+#gallery-products-product-form .gallery-avatar .film a#load_from_disk {
+  width: 30%;
+  top: 20px;
+}
+/* line 1051, backend_manenok.scss */
+#gallery-products-product-form #FineUploader {
+  background-size: contain;
+  width: 325px;
+  height: 325px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 1058, backend_manenok.scss */
+#gallery-products-product-form .qq-upload-drop-area {
+  border: 1px solid #e4e4e4;
+}
+/* line 1061, backend_manenok.scss */
+#gallery-products-product-form .qq-upload-drop-area,
+#gallery-products-product-form .qq-uploader {
+  height: 100%;
+  width: 100%;
+}
+/* line 1066, backend_manenok.scss */
+#gallery-products-product-form .avatar {
+  text-align: center;
+  width: 325px;
+  height: 325px;
+  top: 22px;
+  left: 0px;
+  position: absolute;
+}
+/* line 1067, backend_manenok.scss */
+#gallery-products-product-form .avatar #avatar {
+  height: 325px;
+  max-width: 100%;
+  z-index: 9000;
+}
+/* line 1071, backend_manenok.scss */
+#gallery-products-product-form .avatar #avatar:hover {
+  opacity: 0.3;
+}
+/* line 1074, backend_manenok.scss */
+#gallery-products-product-form .avatar #avatar:hover {
+  opacity: 0.3;
+}
+/* line 1078, backend_manenok.scss */
+#gallery-products-product-form .avatar .close-img {
+  right: 0;
+  left: initial;
+}
+/* line 1089, backend_manenok.scss */
+#gallery-products-product-form .redactor-box {
+  margin-bottom: 0;
+}
+
+/* line 1095, backend_manenok.scss */
+#image-upload .qq-upload-list {
+  display: none;
+}
+/* line 1098, backend_manenok.scss */
+#image-upload img.close-img.fa-close {
+  position: relative;
+  left: -24px;
+  top: -106px;
+}
+
+/* line 1109, backend_manenok.scss */
+.gallery_list .pagination .bootstrap-select.btn-group {
+  width: 45px;
+  display: inline;
+}
+/* line 1113, backend_manenok.scss */
+.gallery_list .pagination .bootstrap-select.btn-group .dropdown-menu {
+  min-width: 20px;
+  width: 102px;
+  border-radius: 0;
+  left: 0px;
+  top: 26px;
+}
+/* line 1121, backend_manenok.scss */
+.gallery_list .pagination .bootstrap-select.btn-group .dropdown-menu ul li a {
+  width: 100%;
+  padding-left: 10px;
+}
+/* line 1124, backend_manenok.scss */
+.gallery_list .pagination .bootstrap-select.btn-group .dropdown-menu ul li a:hover {
+  background: #004cff;
+  color: #fff;
+}
+/* line 1129, backend_manenok.scss */
+.gallery_list .pagination .bootstrap-select.btn-group .dropdown-menu ul li.selected a {
+  border: none;
+  background: #1242e3;
+  color: #fff;
+}
+/* line 1137, backend_manenok.scss */
+.gallery_list .pagination .bootstrap-select.btn-group .caret {
+  position: absolute;
+  top: 50%;
+  right: 2px;
+  margin-top: -2px;
+  vertical-align: middle;
+}
+/* line 1144, backend_manenok.scss */
+.gallery_list .pagination .bootstrap-select.btn-group .dropdown-toggle {
+  border-left: none;
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+  height: 30px;
+  width: 45px;
+  min-width: 40px;
+  padding-left: 3px;
+}
+/* line 1153, backend_manenok.scss */
+.gallery_list .pagination .bootstrap-select.btn-group .dropdown-toggle .caret {
+  right: 2px;
+}
+/* line 1156, backend_manenok.scss */
+.gallery_list .pagination .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+  width: 23px;
+  text-align: right;
+}
+/* line 1167, backend_manenok.scss */
+.gallery_list .bootstrap-select.btn-group .dropdown-menu {
+  min-width: 20px;
+  width: 55px;
+  border-radius: 0;
+  left: -65px;
+  top: 23px;
+}
+/* line 1175, backend_manenok.scss */
+.gallery_list .bootstrap-select.btn-group .dropdown-menu ul li a {
+  padding-left: 10px;
+}
+/* line 1177, backend_manenok.scss */
+.gallery_list .bootstrap-select.btn-group .dropdown-menu ul li a:hover {
+  background: #004cff;
+  color: #fff;
+}
+/* line 1182, backend_manenok.scss */
+.gallery_list .bootstrap-select.btn-group .dropdown-menu ul li.selected a {
+  border: none;
+  background: #1242e3;
+  color: #fff;
+}
+/* line 1192, backend_manenok.scss */
+.gallery_list .bootstrap-select.btn-group .caret {
+  position: absolute;
+  top: 50%;
+  right: 2px;
+  margin-top: -2px;
+  vertical-align: middle;
+}
+/* line 1199, backend_manenok.scss */
+.gallery_list .bootstrap-select.btn-group .dropdown-toggle {
+  padding-left: 3px;
+}
+/* line 1201, backend_manenok.scss */
+.gallery_list .bootstrap-select.btn-group .dropdown-toggle .caret {
+  right: 2px;
+}
+/* line 1204, backend_manenok.scss */
+.gallery_list .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+  width: 23px;
+  text-align: center;
+}
+/* line 1211, backend_manenok.scss */
+.gallery_list .fa-angle-left:before, .gallery_list .fa-angle-right:before {
+  vertical-align: -3px;
+  position: relative;
+  left: 9px;
+}
+/* line 1217, backend_manenok.scss */
+.gallery_list #products-list .buttons_group {
+  float: left;
+  margin-left: 30px;
+}
+/* line 1220, backend_manenok.scss */
+.gallery_list #products-list .buttons_group .btn.btn-action {
+  padding-top: 2px;
+}
+/* line 1224, backend_manenok.scss */
+.gallery_list #products-list .fa {
+  font-size: 14px;
+}
+/* line 1231, backend_manenok.scss */
+.gallery_list #products-list .product_for_page.bootstrap-select {
+  position: absolute;
+  margin-top: 2px;
+  left: 100%;
+  height: 0;
+  width: 0 !important;
+  border: none;
+}
+/* line 1239, backend_manenok.scss */
+.gallery_list #products-list .product_for_page button {
+  position: absolute;
+  margin-top: 0px;
+  right: 25px;
+  border: 1px solid #d1d1d1;
+  border-radius: 3px;
+  width: 40px;
+  font-size: 12px;
+  height: 27px;
+  background: linear-gradient(to top, #e8e8e8, #fff);
+}
+/* line 1252, backend_manenok.scss */
+.gallery_list .pag-cont {
+  float: right;
+  margin-right: 92px;
+}
+/* line 1257, backend_manenok.scss */
+.gallery_list .pag-cont ul.pagination li a {
+  width: 29px;
+  height: 30px;
+  padding: 0;
+}
+/* line 1264, backend_manenok.scss */
+.gallery_list .pag-cont .dropdown.dropdown-select {
+  display: inline-block;
+  padding-left: 0;
+  float: right;
+  margin: 7px 0 20px 46px;
+  border-radius: 4px;
+}
+/* line 1270, backend_manenok.scss */
+.gallery_list .pag-cont .dropdown.dropdown-select .btn {
+  font-size: 12px;
+  width: 40px;
+  height: 27px;
+  padding: 0;
+  padding-top: 1px;
+}
+/* line 1278, backend_manenok.scss */
+.gallery_list .pag-cont .pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 0px 0 16px;
+  border-radius: 4px;
+}
+/* line 1284, backend_manenok.scss */
+.gallery_list .pag-cont .pagination li a {
+  padding: 4px 9px;
+  font-size: 14px;
+  color: #343434;
+}
+/* line 1288, backend_manenok.scss */
+.gallery_list .pag-cont .pagination li a:hover {
+  background-color: #004cff !important;
+  color: white !important;
+}
+/* line 1295, backend_manenok.scss */
+.gallery_list .pag-cont .pagination select {
+  text-align: center;
+  border-color: #dddddd;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px;
+  box-shadow: none;
+  display: inline-block;
+  width: 47px;
+  padding: 0;
+  float: left;
+  height: 30px;
+  margin-top: 0;
+}
+/* line 1296, backend_manenok.scss */
+.gallery_list .pag-cont .pagination select option {
+  text-align: center;
+}
+/* line 1313, backend_manenok.scss */
+.gallery_list .btn-group.checkbox {
+  margin-top: 0;
+  margin-left: 8px;
+  margin-bottom: 5px;
+}
+/* line 1314, backend_manenok.scss */
+.gallery_list .btn-group.checkbox.open {
+  border-bottom: none;
+}
+/* line 1316, backend_manenok.scss */
+.gallery_list .btn-group.checkbox.open > .dropdown-menu {
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: -1px;
+}
+/* line 1320, backend_manenok.scss */
+.gallery_list .btn-group.checkbox.open > .dropdown-menu > li > a:hover {
+  background: #1242e3;
+  color: #fff;
+}
+
+/* line 1332, backend_manenok.scss */
+#lightbox.lightbox {
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%);
+}
+
+/* line 1339, backend_manenok.scss */
+.main-title-block.module-title #products-list .one_item {
+  overflow: visible;
+}
+/* line 1341, backend_manenok.scss */
+.main-title-block.module-title #products-list .one_item .tooltip.fade {
+  z-index: 1000;
+}
+/* line 1344, backend_manenok.scss */
+.main-title-block.module-title #products-list .one_item .image {
+  padding-left: 35px;
+}
+/* line 1347, backend_manenok.scss */
+.main-title-block.module-title #products-list .one_item .buttons {
+  float: right;
+}
+/* line 1349, backend_manenok.scss */
+.main-title-block.module-title #products-list .one_item .buttons a.btn-trash:hover {
+  background-color: #1246d8;
+}
+
+/* line 1358, backend_manenok.scss */
+#rewiew-settins-form ul li:nth-child(4),
+#rewiew-settins-form ul li:nth-child(5),
+#rewiew-settins-form ul li:nth-child(6) {
+  margin-left: 15px;
+}
+/* line 1364, backend_manenok.scss */
+#rewiew-settins-form label {
+  color: #000000;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+/* line 1368, backend_manenok.scss */
+#rewiew-settins-form label.check-label {
+  margin-left: -10px;
+}
+/* line 1372, backend_manenok.scss */
+#rewiew-settins-form .disabled label {
+  color: #979797;
+}
+
+/* line 1377, backend_manenok.scss */
+.main-title-block.module-title #review-filter {
+  margin-top: -20px;
+}
+/* line 1379, backend_manenok.scss */
+.main-title-block.module-title #review-filter a {
+  width: 40px;
+  height: 30px;
+  position: relative;
+  top: -3px;
+}
+/* line 1384, backend_manenok.scss */
+.main-title-block.module-title #review-filter a span.pull-left {
+  display: block;
+  position: absolute;
+  top: -19px;
+  left: -35px;
+  line-height: 73px !important;
+  height: 73px;
+  width: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 1395, backend_manenok.scss */
+.main-title-block.module-title #review-filter a:hover span.pull-left {
+  color: #3d3d3d;
+  background-color: #d9d9d9;
+}
+/* line 1400, backend_manenok.scss */
+.main-title-block.module-title #review-filter .filter-title {
+  margin-bottom: 3px;
+}
+/* line 1403, backend_manenok.scss */
+.main-title-block.module-title #review-filter .buttons {
+  margin-top: 5px;
+}
+/* line 1405, backend_manenok.scss */
+.main-title-block.module-title #review-filter .buttons button {
+  margin-right: 25px;
+}
+/* line 1408, backend_manenok.scss */
+.main-title-block.module-title #review-filter .buttons #reset {
+  margin-right: 50px;
+}
+/* line 1411, backend_manenok.scss */
+.main-title-block.module-title #review-filter .buttons #reset + a {
+  padding-left: 10px;
+}
+/* line 1414, backend_manenok.scss */
+.main-title-block.module-title #review-filter .buttons > * {
+  margin-top: 0px;
+  height: 30px;
+  top: 0px;
+}
+
+/* line 1422, backend_manenok.scss */
+#products-list.reviews-list {
+  position: relative;
+}
+/* line 1424, backend_manenok.scss */
+#products-list.reviews-list a.archive {
+  top: inherit;
+  width: 120px;
+  position: absolute;
+  bottom: -50px;
+  right: 0;
+}
+/* line 1431, backend_manenok.scss */
+#products-list.reviews-list .title {
+  font-size: 16px;
+  margin-top: 13px;
+}
+/* line 1435, backend_manenok.scss */
+#products-list.reviews-list .buttons_group {
+  padding-left: 25px;
+  padding-right: 0px;
+}
+/* line 1439, backend_manenok.scss */
+#products-list.reviews-list select#theme {
+  padding: 5px;
+  font-size: 14px;
+  width: 100%;
+  margin-left: -40px;
+  margin-top: 5px;
+}
+/* line 1447, backend_manenok.scss */
+#products-list.reviews-list .btn-group.checkbox {
+  margin: 0px;
+}
+/* line 1450, backend_manenok.scss */
+#products-list.reviews-list .list-title {
+  color: #737373;
+  margin-top: 25px;
+}
+/* line 1453, backend_manenok.scss */
+#products-list.reviews-list .list-title div:nth-child(3) {
+  padding-left: 17px;
+}
+/* line 1457, backend_manenok.scss */
+#products-list.reviews-list .items {
+  margin-top: 10px;
+}
+/* line 1460, backend_manenok.scss */
+#products-list.reviews-list button {
+  top: 5px;
+  height: 30px;
+}
+
+/* line 1467, backend_manenok.scss */
+.review_list .checkbox.open .dropdown-menu {
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: -1px;
+}
+/* line 1471, backend_manenok.scss */
+.review_list .checkbox.open .dropdown-menu > li > a:hover {
+  background: #1242e3;
+  color: #fff;
+}
+/* line 1476, backend_manenok.scss */
+.review_list ul#table-review {
+  cursor: pointer;
+}
+/* line 1478, backend_manenok.scss */
+.review_list ul#table-review li.one_item {
+  padding-top: 8px;
+  color: #737373;
+  margin-bottom: 10px;
+  height: 85px;
+  border: none;
+}
+/* line 1481, backend_manenok.scss */
+.review_list ul#table-review li.one_item .user-info {
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+/* line 1486, backend_manenok.scss */
+.review_list ul#table-review li.one_item .theme, .review_list ul#table-review li.one_item .text {
+  color: #000000;
+}
+/* line 1489, backend_manenok.scss */
+.review_list ul#table-review li.one_item .rating {
+  margin-top: 5px;
+}
+/* line 1491, backend_manenok.scss */
+.review_list ul#table-review li.one_item .rating .fa {
+  margin-top: 0px;
+  font-size: 18px;
+}
+/* line 1496, backend_manenok.scss */
+.review_list ul#table-review li.one_item img {
+  margin-top: 3px;
+}
+/* line 1499, backend_manenok.scss */
+.review_list ul#table-review li.one_item > div {
+  margin-top: 8px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  max-height: 72px;
+  overflow-y: hidden;
+}
+/* line 1500, backend_manenok.scss */
+.review_list ul#table-review li.one_item > div:first-child {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* line 1504, backend_manenok.scss */
+.review_list ul#table-review li.one_item > div input[type="checkbox"] + label:not(.status) {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+/* line 1518, backend_manenok.scss */
+.review_list ul#table-review li.one_item:hover {
+  background-color: #e4e4e4;
+}
+/* line 1521, backend_manenok.scss */
+.review_list ul#table-review li.one_item.status {
+  border-left-width: 4px;
+  border-left-style: solid;
+}
+/* line 1524, backend_manenok.scss */
+.review_list ul#table-review li.one_item.status.status-new {
+  border-left-color: #0849e1;
+}
+/* line 1527, backend_manenok.scss */
+.review_list ul#table-review li.one_item.status.status-moderate {
+  border-left-color: #fb6b00;
+}
+/* line 1530, backend_manenok.scss */
+.review_list ul#table-review li.one_item.status.status-placement {
+  border-left-color: #009f00;
+}
+/* line 1533, backend_manenok.scss */
+.review_list ul#table-review li.one_item.status.status-rejected {
+  border-left-color: #ff0000;
+}
+/* line 1537, backend_manenok.scss */
+.review_list ul#table-review li.one_item.status.status- .theme, .review_list ul#table-review li.one_item.status.status- .text {
+  color: #737373;
+}
+
+/* line 1548, backend_manenok.scss */
+#products-list .one_item .status.status-new {
+  border-left-color: #0849e1;
+}
+/* line 1551, backend_manenok.scss */
+#products-list .one_item .status.status-moderate {
+  border-left-color: #fb6b00;
+}
+/* line 1554, backend_manenok.scss */
+#products-list .one_item .status.status-placement {
+  border-left-color: #009f00;
+}
+/* line 1557, backend_manenok.scss */
+#products-list .one_item .status.status-rejected {
+  border-left-color: #ff0000;
+}
+/* line 1561, backend_manenok.scss */
+#products-list .one_item .status.status- .theme, #products-list .one_item .status.status- .text {
+  color: #737373;
+}
+
+/* line 1571, backend_manenok.scss */
+#create_category .modal-dialog,
+#update_category .modal-dialog {
+  margin-top: 20%;
+  width: 30%;
+}
+/* line 1574, backend_manenok.scss */
+#create_category .modal-dialog .modal-content,
+#update_category .modal-dialog .modal-content {
+  border-radius: 0;
+}
+/* line 1576, backend_manenok.scss */
+#create_category .modal-dialog .modal-content .modal-header .close,
+#update_category .modal-dialog .modal-content .modal-header .close {
+  margin-top: -20px;
+  margin-right: -35px;
+}
+/* line 1580, backend_manenok.scss */
+#create_category .modal-dialog .modal-content #create-form,
+#create_category .modal-dialog .modal-content #edit-form,
+#update_category .modal-dialog .modal-content #create-form,
+#update_category .modal-dialog .modal-content #edit-form {
+  padding: 10px 30px;
+}
+/* line 1583, backend_manenok.scss */
+#create_category .modal-dialog .modal-content #create-form .form-group,
+#create_category .modal-dialog .modal-content #edit-form .form-group,
+#update_category .modal-dialog .modal-content #create-form .form-group,
+#update_category .modal-dialog .modal-content #edit-form .form-group {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/* line 1587, backend_manenok.scss */
+#create_category .modal-dialog .modal-content #create-form a, #create_category .modal-dialog .modal-content #create-form a:hover,
+#create_category .modal-dialog .modal-content #edit-form a,
+#create_category .modal-dialog .modal-content #edit-form a:hover,
+#update_category .modal-dialog .modal-content #create-form a,
+#update_category .modal-dialog .modal-content #create-form a:hover,
+#update_category .modal-dialog .modal-content #edit-form a,
+#update_category .modal-dialog .modal-content #edit-form a:hover {
+  text-decoration: underline;
+  color: #979797;
+  margin-left: 20px;
+}
+
+/* line 1597, backend_manenok.scss */
+.review-edit {
+  color: #737373;
+}
+/* line 1598, backend_manenok.scss */
+.review-edit .form-group {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  position: relative;
+}
+/* line 1599, backend_manenok.scss */
+.review-edit .form-group .redactor-box {
+  margin-bottom: 0;
+}
+/* line 1605, backend_manenok.scss */
+.review-edit .form-group .help-inline {
+  font-size: 12px;
+  color: #ff0000;
+  position: absolute;
+}
+/* line 1612, backend_manenok.scss */
+.review-edit .client-info {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/* line 1616, backend_manenok.scss */
+.review-edit .rating {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 1619, backend_manenok.scss */
+.review-edit .rating .fa {
+  font-size: 16px;
+  margin-right: 5px;
+}
+/* line 1624, backend_manenok.scss */
+.review-edit .rating-info {
+  margin-top: 10px;
+  padding-left: 0;
+}
+/* line 1629, backend_manenok.scss */
+.review-edit .user, .review-edit .phone, .review-edit .mail {
+  padding-left: 20px;
+  margin-top: 3px;
+}
+/* line 1632, backend_manenok.scss */
+.review-edit .user img, .review-edit .phone img, .review-edit .mail img {
+  position: absolute;
+  left: 0;
+}
+/* line 1637, backend_manenok.scss */
+.review-edit .number {
+  padding-right: 10px;
+}
+/* line 1640, backend_manenok.scss */
+.review-edit .user {
+  color: #000000;
+}
+/* line 1643, backend_manenok.scss */
+.review-edit .user-status {
+  float: right;
+  padding-right: 40px;
+}
+/* line 1647, backend_manenok.scss */
+.review-edit .user-status-1 {
+  color: #009f00;
+}
+/* line 1650, backend_manenok.scss */
+.review-edit .user-status-2 {
+  color: #ff0000;
+}
+/* line 1653, backend_manenok.scss */
+.review-edit .user-status-3 {
+  color: #3d3d3d;
+}
+
+/* line 1659, backend_manenok.scss */
+.user_settings #status .border {
+  border-left: 4px solid;
+  padding-left: 10px;
+  position: relative;
+  left: -14px;
+}
+/* line 1664, backend_manenok.scss */
+.user_settings #status .border.status-1 {
+  border-left-color: #0849e1;
+}
+/* line 1667, backend_manenok.scss */
+.user_settings #status .border.status-2 {
+  border-left-color: #fb6b00;
+}
+/* line 1670, backend_manenok.scss */
+.user_settings #status .border.status-5, .user_settings #status .border.status-6 {
+  border-left-color: #009f00;
+}
+/* line 1674, backend_manenok.scss */
+.user_settings #status .border.status-7 {
+  border-left-color: #ff0000;
+}
+
+/* line 1681, backend_manenok.scss */
+.frontend_review_list {
+  margin-top: 20px;
+  border-top: 1px solid #cfcfcf;
+}
+/* line 1684, backend_manenok.scss */
+.frontend_review_list #products-list {
+  margin-top: 40px;
+}
+/* line 1687, backend_manenok.scss */
+.frontend_review_list #products-list .one_item {
+  margin-bottom: 30px;
+}
+/* line 1689, backend_manenok.scss */
+.frontend_review_list #products-list .one_item .client-info {
+  margin-bottom: 15px;
+  font-size: 12px;
+  color: #979797;
+}
+/* line 1693, backend_manenok.scss */
+.frontend_review_list #products-list .one_item .client-info .user {
+  color: #000000;
+}
+/* line 1696, backend_manenok.scss */
+.frontend_review_list #products-list .one_item .client-info .rating {
+  font-size: 18px;
+}
+/* line 1697, backend_manenok.scss */
+.frontend_review_list #products-list .one_item .client-info .rating .fa {
+  margin-top: 0;
+  margin-left: 4px;
+}
+/* line 1705, backend_manenok.scss */
+.frontend_review_list #products-list .one_item .review .theme {
+  max-height: 80px;
+  overflow-y: hidden;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* line 1712, backend_manenok.scss */
+.frontend_review_list #products-list .one_item .review .text {
+  max-height: 200px;
+  overflow-y: hidden;
+  font-size: 14px;
+}
+
+/* line 1723, backend_manenok.scss */
+.head {
+  border-bottom: 1px solid #cfcfcf;
+  border-top: 1px solid #cfcfcf;
+}
+
+/* line 1729, backend_manenok.scss */
+#new-review {
+  margin-top: 20px;
+}
+/* line 1731, backend_manenok.scss */
+#new-review h4 {
+  margin-bottom: 20px;
+}
+/* line 1734, backend_manenok.scss */
+#new-review .help-inline {
+  bottom: -15px;
+  right: -15px;
+  white-space: nowrap;
+}
+/* line 1740, backend_manenok.scss */
+#new-review .form-group label {
+  font-weight: normal;
+  color: #979797;
+}
+
+/* line 1750, backend_manenok.scss */
+#orders-filter .labels .bootstrap-select,
+#orders-filter .o-status .bootstrap-select {
+  height: 32px;
+}
+/* line 1752, backend_manenok.scss */
+#orders-filter .labels .bootstrap-select button,
+#orders-filter .o-status .bootstrap-select button {
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 1761, backend_manenok.scss */
+#orders-filter .labels a,
+#orders-filter .o-status a {
+  padding-left: 10px;
+}
+/* line 1763, backend_manenok.scss */
+#orders-filter .labels a [class*=order-status],
+#orders-filter .o-status a [class*=order-status] {
+  position: relative;
+  top: 5px;
+  margin-right: 5px;
+}
+/* line 1772, backend_manenok.scss */
+#orders-filter .o-status .bootstrap-select button {
+  height: 32px;
+}
+/* line 1774, backend_manenok.scss */
+#orders-filter .o-status .bootstrap-select button [class*=order-status] {
+  margin-right: 3px;
+}
+/* line 1782, backend_manenok.scss */
+#orders-filter .labels button .fa {
+  margin-top: 0;
+}
+/* line 1784, backend_manenok.scss */
+#orders-filter .labels button .fa.fa-star.color-, #orders-filter .labels button .fa.fa-star.color-- {
+  font-size: 0;
+}
+/* line 1787, backend_manenok.scss */
+#orders-filter .labels button .fa.fa-star.color-:after, #orders-filter .labels button .fa.fa-star.color--:after {
+  font-size: initial;
+  content: '-';
+  color: initial;
+}
+/* line 1794, backend_manenok.scss */
+#orders-filter .labels button .filter-option {
+  font-size: 0;
+}
+/* line 1799, backend_manenok.scss */
+#orders-filter .labels li .text {
+  font-size: 0;
+}
+/* line 1801, backend_manenok.scss */
+#orders-filter .labels li .text .fa {
+  font-size: initial;
+}
+/* line 1803, backend_manenok.scss */
+#orders-filter .labels li .text .fa.fa-star.color-- {
+  font-size: 0;
+}
+/* line 1805, backend_manenok.scss */
+#orders-filter .labels li .text .fa.fa-star.color--:after {
+  font-size: initial;
+  content: '-';
+  color: initial;
+}
+/* line 1816, backend_manenok.scss */
+#orders-filter .buttons-block .fa {
+  margin-top: 0px;
+}
+/* line 1819, backend_manenok.scss */
+#orders-filter .buttons-block button {
+  margin-top: 14px;
+}
+
+/* line 1825, backend_manenok.scss */
+.orders-info {
+  display: flex;
+  align-items: center;
+}
+/* line 1828, backend_manenok.scss */
+.orders-info h4 {
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 0;
+}
+/* line 1833, backend_manenok.scss */
+.orders-info .archive {
+  font-size: 12px;
+}
+/* line 1836, backend_manenok.scss */
+.orders-info .all-info {
+  background-color: #e4e4e4;
+  border-radius: 5px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+/* line 1841, backend_manenok.scss */
+.orders-info .all-info .count-orders {
+  margin-right: 50px;
+}
+/* line 1847, backend_manenok.scss */
+.orders-info .counter-orders .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+  width: 100%;
+}
+/* line 1850, backend_manenok.scss */
+.orders-info .counter-orders .bootstrap-select button {
+  padding: 3px;
+  padding-right: 10px;
+}
+/* line 1853, backend_manenok.scss */
+.orders-info .counter-orders .bootstrap-select button .bs-caret .caret {
+  right: 3px;
+}
+/* line 1860, backend_manenok.scss */
+.orders-info .pag-cont .pagination {
+  margin: 0;
+}
+/* line 1862, backend_manenok.scss */
+.orders-info .pag-cont .pagination li {
+  display: inline-block;
+  top: 6px;
+  position: relative;
+}
+/* line 1866, backend_manenok.scss */
+.orders-info .pag-cont .pagination li a {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+/* line 1871, backend_manenok.scss */
+.orders-info .pag-cont .pagination select {
+  position: relative;
+  padding: 4px 10px 4px 5px;
+  top: -3px;
+  border-right: none;
+  border-left: none;
+  border-color: #ddd;
+}
+
+/* line 1886, backend_manenok.scss */
+.order-list.table-striped > thead th {
+  border: none;
+}
+/* line 1888, backend_manenok.scss */
+.order-list.table-striped > thead th:first-child {
+  padding-left: 0;
+}
+/* line 1894, backend_manenok.scss */
+.order-list.table-striped > tbody > tr:hover {
+  background-color: #d9d9d9 !important;
+}
+/* line 1898, backend_manenok.scss */
+.order-list.table-striped > tbody > tr.one-order .labels {
+  margin-top: 5px;
+}
+/* line 1900, backend_manenok.scss */
+.order-list.table-striped > tbody > tr.one-order .labels .cursor-pointer {
+  margin-right: 5px;
+}
+/* line 1905, backend_manenok.scss */
+.order-list.table-striped > tbody > tr.one-order .time .times {
+  margin-left: 3px;
+}
+/* line 1909, backend_manenok.scss */
+.order-list.table-striped > tbody > tr.one-order td {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border: none;
+}
+/* line 1915, backend_manenok.scss */
+.order-list.table-striped > tbody > tr.one-order.complete .fa:not(.fa-envelope-o, .fa-circle) {
+  display: none;
+}
+/* line 1918, backend_manenok.scss */
+.order-list.table-striped > tbody > tr.one-order.complete *:not(.fa, .fa-stack) {
+  color: #999 !important;
+}
+/* line 1922, backend_manenok.scss */
+.order-list.table-striped > tbody > tr.one-order .col-info {
+  padding-left: 7px;
+  width: 19%;
+}
+/* line 1925, backend_manenok.scss */
+.order-list.table-striped > tbody > tr.one-order .col-info .times {
+  margin-left: 5px;
+}
+/* line 1930, backend_manenok.scss */
+.order-list.table-striped > tbody > tr.one-order .status > div:not(:last-child) {
+  margin-right: 10px;
+}
+/* line 1933, backend_manenok.scss */
+.order-list.table-striped > tbody > tr.one-order .status .order-status5 {
+  background: url("/images/icon-admin/order-status-completed-active.png") 0 0 no-repeat;
+}
+/* line 1935, backend_manenok.scss */
+.order-list.table-striped > tbody > tr.one-order .status .order-status5.inactive {
+  background: url("/images/icon-admin/order-status-completed-inactive.png") 0 0 no-repeat;
+}
+/* line 1941, backend_manenok.scss */
+.order-list.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e4e4e4;
+}
+
+/* line 1948, backend_manenok.scss */
+.icon-admin-self-pickup,
+.icon-admin-delivery,
+.icon-admin-delivery_post {
+  margin-top: 5px;
+  width: 25px;
+  height: 20px;
+}
+
+/* line 1958, backend_manenok.scss */
+.one-order-title .href-back a {
+  position: absolute;
+  top: -26px;
+  left: 15px;
+  display: inline-block;
+  margin-right: 5px;
+  height: 74px;
+  line-height: 74px;
+  text-align: center;
+  width: 30px;
+}
+/* line 1968, backend_manenok.scss */
+.one-order-title .href-back a .fa {
+  position: relative;
+  top: 4px;
+}
+/* line 1972, backend_manenok.scss */
+.one-order-title .href-back a:hover {
+  color: #000000;
+  background-color: #cfcfcf;
+}
+/* line 1976, backend_manenok.scss */
+.one-order-title .href-back a:hover .fa:hover {
+  color: #000000;
+  background-color: #cfcfcf;
+}
+/* line 1984, backend_manenok.scss */
+.one-order-title .order-info {
+  position: relative;
+  top: -8px;
+}
+/* line 1988, backend_manenok.scss */
+.one-order-title .order-info .paid .sum,
+.one-order-title .order-info .paid .currency {
+  font-size: 16px;
+}
+/* line 1994, backend_manenok.scss */
+.one-order-title .order-info .labels .label-title {
+  position: relative;
+  top: -8px;
+}
+/* line 1998, backend_manenok.scss */
+.one-order-title .order-info .labels > div {
+  position: relative;
+  top: -3px;
+}
+/* line 2001, backend_manenok.scss */
+.one-order-title .order-info .labels > div .fa:not(:last-child) {
+  margin-right: 10px;
+}
+/* line 2007, backend_manenok.scss */
+.one-order-title .order-info .o-status .status-title {
+  position: relative;
+  top: -12px;
+}
+/* line 2011, backend_manenok.scss */
+.one-order-title .order-info .o-status > div {
+  position: relative;
+  top: -10px;
+}
+/* line 2015, backend_manenok.scss */
+.one-order-title .order-info .o-status .bootstrap-select {
+  height: 32px;
+}
+/* line 2017, backend_manenok.scss */
+.one-order-title .order-info .o-status .bootstrap-select button {
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 32px;
+}
+/* line 2025, backend_manenok.scss */
+.one-order-title .order-info .o-status .bootstrap-select button [class*=order-status] {
+  margin-right: 3px;
+}
+/* line 2030, backend_manenok.scss */
+.one-order-title .order-info .o-status a {
+  padding-left: 10px;
+}
+/* line 2032, backend_manenok.scss */
+.one-order-title .order-info .o-status a [class*=order-status] {
+  position: relative;
+  top: 5px;
+  margin-right: 5px;
+}
+/* line 2039, backend_manenok.scss */
+.one-order-title .order-info .dropdown {
+  position: relative;
+  right: -30px;
+}
+/* line 2043, backend_manenok.scss */
+.one-order-title .order-info .dropdown.open button {
+  background: #1242e3;
+}
+/* line 2045, backend_manenok.scss */
+.one-order-title .order-info .dropdown.open button .fa {
+  color: white;
+  text-shadow: none;
+}
+/* line 2051, backend_manenok.scss */
+.one-order-title .order-info .dropdown button {
+  padding: 3px 6px;
+}
+/* line 2053, backend_manenok.scss */
+.one-order-title .order-info .dropdown button:active {
+  background: #1242e3;
+}
+
+/* line 2063, backend_manenok.scss */
+.one-order-info .user-info .media-object {
+  max-width: 60px;
+  max-height: 60px;
+  width: 60px;
+  height: auto;
+}
+/* line 2071, backend_manenok.scss */
+.one-order-info .o-status .o-status-div {
+  margin-top: 10px;
+}
+/* line 2073, backend_manenok.scss */
+.one-order-info .o-status .o-status-div > div {
+  margin-right: 10px;
+}
+/* line 2085, backend_manenok.scss */
+.one-order-info .time.delivery {
+  padding-left: 0;
+}
+/* line 2088, backend_manenok.scss */
+.one-order-info .time .times {
+  margin-top: 20px;
+}
+
+/* line 2095, backend_manenok.scss */
+.order-block .table {
+  color: black;
+}
+/* line 2097, backend_manenok.scss */
+.order-block .table th {
+  border: none;
+}
+/* line 2100, backend_manenok.scss */
+.order-block .table td {
+  border: none;
+}
+/* line 2104, backend_manenok.scss */
+.order-block .table.order-products .number {
+  padding-left: 2px;
+}
+/* line 2107, backend_manenok.scss */
+.order-block .table.order-products td {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+/* line 2112, backend_manenok.scss */
+.order-block .table.order-products .one-order-product img {
+  width: 50px;
+  max-height: 100px;
+  height: auto;
+}
+/* line 2117, backend_manenok.scss */
+.order-block .table.order-products .one-order-product .product-title {
+  margin-bottom: 5px;
+}
+/* line 2121, backend_manenok.scss */
+.order-block .table.order-products .one-order-product .count .fa {
+  margin-right: 8px;
+  margin-left: 8px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+/* line 2126, backend_manenok.scss */
+.order-block .table.order-products .one-order-product .count .fa:hover {
+  color: #1242e3;
+}
+/* line 2130, backend_manenok.scss */
+.order-block .table.order-products .one-order-product .count .input {
+  border: 1px solid #cfcfcf;
+  width: 71px;
+  height: 35px;
+  padding-top: 8px;
+  display: inline-block;
+}
+/* line 2140, backend_manenok.scss */
+.order-block .table.order-products .one-order-product .status select {
+  border: 1px solid #cfcfcf;
+  padding: 8px 10px;
+}
+/* line 2145, backend_manenok.scss */
+.order-block .table.order-products .one-order-product .baseline {
+  vertical-align: baseline;
+  padding-top: 20px;
+}
+/* line 2151, backend_manenok.scss */
+.order-block .table.result {
+  width: initial;
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+/* line 2158, backend_manenok.scss */
+.order-block .add-product {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+/* line 2164, backend_manenok.scss */
+.order-block .order-buttons {
+  margin-top: 20px;
+}
+/* line 2166, backend_manenok.scss */
+.order-block .order-buttons > * {
+  margin-left: 15px;
+}
+/* line 2169, backend_manenok.scss */
+.order-block .order-buttons a {
+  font-size: 14px;
+}
+/* line 2172, backend_manenok.scss */
+.order-block .order-buttons button {
+  font-size: 16px;
+}
+/* line 2177, backend_manenok.scss */
+.order-block .delivery-info .labels {
+  margin-top: 35px;
+}
+/* line 2179, backend_manenok.scss */
+.order-block .delivery-info .labels .add-label {
+  margin-bottom: 20px;
+}
+/* line 2181, backend_manenok.scss */
+.order-block .delivery-info .labels .add-label:last-child {
+  margin-bottom: 30px;
+}
+/* line 2184, backend_manenok.scss */
+.order-block .delivery-info .labels .add-label .bootstrap-select {
+  margin-left: 15px;
+  height: 32px;
+  width: 50%;
+}
+/* line 2188, backend_manenok.scss */
+.order-block .delivery-info .labels .add-label .bootstrap-select button {
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 2195, backend_manenok.scss */
+.order-block .delivery-info .labels .add-label .bootstrap-select button .fa {
+  margin-top: 0;
+}
+/* line 2197, backend_manenok.scss */
+.order-block .delivery-info .labels .add-label .bootstrap-select button .fa.fa-star.color-, .order-block .delivery-info .labels .add-label .bootstrap-select button .fa.fa-star.color-- {
+  font-size: 0;
+}
+/* line 2200, backend_manenok.scss */
+.order-block .delivery-info .labels .add-label .bootstrap-select button .fa.fa-star.color-:after, .order-block .delivery-info .labels .add-label .bootstrap-select button .fa.fa-star.color--:after {
+  font-size: initial;
+  content: '-';
+  color: initial;
+}
+/* line 2207, backend_manenok.scss */
+.order-block .delivery-info .labels .add-label .bootstrap-select button .filter-option {
+  font-size: 0;
+}
+/* line 2212, backend_manenok.scss */
+.order-block .delivery-info .labels .add-label a {
+  padding-left: 10px;
+}
+/* line 2214, backend_manenok.scss */
+.order-block .delivery-info .labels .add-label a [class*=order-status] {
+  position: relative;
+  top: 5px;
+  margin-right: 5px;
+}
+/* line 2221, backend_manenok.scss */
+.order-block .delivery-info .labels .add-label li .text {
+  font-size: 0;
+}
+/* line 2223, backend_manenok.scss */
+.order-block .delivery-info .labels .add-label li .text .fa {
+  font-size: initial;
+}
+/* line 2225, backend_manenok.scss */
+.order-block .delivery-info .labels .add-label li .text .fa.fa-star.color-- {
+  font-size: 0;
+}
+/* line 2227, backend_manenok.scss */
+.order-block .delivery-info .labels .add-label li .text .fa.fa-star.color--:after {
+  font-size: initial;
+  content: '-';
+  color: initial;
+}
+/* line 2236, backend_manenok.scss */
+.order-block .delivery-info .labels .add-label .label-input {
+  padding-right: 55px;
+}
+/* line 2238, backend_manenok.scss */
+.order-block .delivery-info .labels .add-label .label-input .fa {
+  position: absolute;
+  right: 18px;
+  top: 30%;
+}
+/* line 2247, backend_manenok.scss */
+.order-block .delivery-info .block-title {
+  font-size: 18px;
+}
+/* line 2249, backend_manenok.scss */
+.order-block .delivery-info .block-title a {
+  font-size: 14px;
+  color: #1242e3;
+  font-weight: normal;
+  margin-left: 30px;
+}
+/* line 2257, backend_manenok.scss */
+.order-block .delivery-info .table button {
+  visibility: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+/* line 2264, backend_manenok.scss */
+.order-block .delivery-info .table tr:hover {
+  background-color: #e4e4e4;
+}
+/* line 2266, backend_manenok.scss */
+.order-block .delivery-info .table tr:hover button {
+  visibility: visible;
+}
+/* line 2274, backend_manenok.scss */
+.order-block .payment-info .form-group .input {
+  padding-right: 40px;
+}
+/* line 2276, backend_manenok.scss */
+.order-block .payment-info .form-group .input span {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* line 2282, backend_manenok.scss */
+.order-block .payment-info .form-group .input .sum {
+  color: #1242e3;
+}
+/* line 2286, backend_manenok.scss */
+.order-block .payment-info .form-group .input.time input {
+  display: inline-block;
+}
+/* line 2288, backend_manenok.scss */
+.order-block .payment-info .form-group .input.time input:first-child {
+  width: 55%;
+}
+/* line 2291, backend_manenok.scss */
+.order-block .payment-info .form-group .input.time input:last-child {
+  width: 38%;
+}
+/* line 2300, backend_manenok.scss */
+.order-block .transfer-info .old-date {
+  margin-bottom: 30px;
+}
+/* line 2303, backend_manenok.scss */
+.order-block .transfer-info .fa {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #1242e3;
+}
+/* line 2312, backend_manenok.scss */
+.order-block .review-info * + .block-title {
+  margin-top: 30px;
+}
+
+/* line 2320, backend_manenok.scss */
+#modal_status .modal-dialog,
+#modal_transfer .modal-dialog {
+  width: 35%;
+}
+/* line 2322, backend_manenok.scss */
+#modal_status .modal-dialog .modal-header,
+#modal_transfer .modal-dialog .modal-header {
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+/* line 2325, backend_manenok.scss */
+#modal_status .modal-dialog .modal-header h3,
+#modal_transfer .modal-dialog .modal-header h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+/* line 2331, backend_manenok.scss */
+#modal_status .modal-dialog .modal-body,
+#modal_transfer .modal-dialog .modal-body {
+  text-align: center;
+}
+/* line 2334, backend_manenok.scss */
+#modal_status .modal-dialog button,
+#modal_transfer .modal-dialog button {
+  margin-right: 20px;
+}
+
+/* line 2341, backend_manenok.scss */
+.top-tab-menu ul {
+  width: 89%;
+}
+/* line 2344, backend_manenok.scss */
+.top-tab-menu ul li:last-child {
+  right: 0;
+}
+/* line 2347, backend_manenok.scss */
+.top-tab-menu ul li:first-child {
+  padding-left: 20px;
+}
+/* line 2350, backend_manenok.scss */
+.top-tab-menu ul li a {
+  color: #3d3d3d;
+  position: absolute;
+  top: -20px;
+  line-height: 51px;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 2359, backend_manenok.scss */
+.top-tab-menu ul li.active a {
+  color: #000000;
+  border-bottom: 3px solid #1242e3;
+}

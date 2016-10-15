@@ -1,0 +1,92 @@
+@import "/css/font-awesome.css";
+
+@font-face {
+  font-family: 'latoregular';
+  src: url('/fonts/lato/lato-regular.eot');
+  src: url('/fonts/lato/lato-regular.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/lato/lato-regular.woff') format('woff'),
+  url('/fonts/lato/lato-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'latobold';
+  src: url('/fonts/lato/lato-bold.eot');
+  src: url('/fonts/lato/lato-bold.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/lato/lato-bold.woff') format('woff'),
+  url('/fonts/lato/lato-bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'latoitalic';
+  src: url('/fonts/lato/lato-italic.eot');
+  src: url('/fonts/lato/lato-italic.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/lato/lato-italic.woff') format('woff'),
+  url('/fonts/lato/lato-italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#toTop {
+  display: none;
+  position: fixed;
+  background-color: #418bc9;
+  opacity: 0.5;
+  padding: 10px 14px;
+  border-radius: 100%;
+  color: white;
+  bottom: 80px;
+  right: 20px;
+  cursor: pointer;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+body {
+  font-family: 'latoregular';
+  word-wrap: break-word;
+}
+h1, h2, h3, h4, h5,
+b, strong, label,th {
+  font-weight: normal;
+  font-family: 'latobold';
+}
+
+i {
+  font-style: normal;
+  font-family: 'latoitalic';
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.2em;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 1.2em;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 1.2em;
+}
+
+h5 {
+  font-size: 14px;
+  line-height: 1.2em;
+}
+
+h6 {
+  font-size: 12px;
+  line-height: 1.2em;
+}

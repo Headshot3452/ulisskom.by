@@ -1,0 +1,4560 @@
+@charset "UTF-8";
+@import url(font-awesome.css);
+/* line 5, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 856, icon-admin/*.png */
+.icon-admin-sprite, .icon-admin-active_sotrud, .icon-admin-add-category, .icon-admin-add-document, .icon-admin-add-menu-item, .icon-admin-add-product, .icon-admin-add_folder, .icon-admin-add_list, .icon-admin-all_users, .icon-admin-answer-module, .icon-admin-articule, .icon-admin-askanswer, .icon-admin-banner, .icon-admin-banners, .icon-admin-base-settings, .icon-admin-blocks, .icon-admin-blue_circle_1, .icon-admin-blue_circle_2, .icon-admin-blue_circle_3, .icon-admin-blue_circle_4, .icon-admin-cart, .icon-admin-catalog-menu, .icon-admin-catalog, .icon-admin-changePsw, .icon-admin-chat, .icon-admin-clients, .icon-admin-close_photo, .icon-admin-comments, .icon-admin-contacts, .icon-admin-copy-product, .icon-admin-currency, .icon-admin-delete, .icon-admin-delivery, .icon-admin-delivery_post, .icon-admin-email, .icon-admin-feedback, .icon-admin-file, .icon-admin-folder-gray, .icon-admin-folder-news, .icon-admin-folder-orange, .icon-admin-gallery, .icon-admin-label-stars, .icon-admin-links, .icon-admin-little_message_company, .icon-admin-little_phone, .icon-admin-little_user_company, .icon-admin-main_settings, .icon-admin-menu-folder-big, .icon-admin-menu-folder, .icon-admin-menu, .icon-admin-modal-close, .icon-admin-module-menu, .icon-admin-move-product, .icon-admin-news, .icon-admin-order-status-completed-active, .icon-admin-order-status-completed-inactive, .icon-admin-permission, .icon-admin-phone, .icon-admin-power-switch-green, .icon-admin-power-switch-red, .icon-admin-price, .icon-admin-reset, .icon-admin-reviews, .icon-admin-self-pickup, .icon-admin-settings-label, .icon-admin-settings, .icon-admin-slider, .icon-admin-status-cancelled, .order-status-1, .icon-admin-status-compiled-active, .icon-admin-status-compiled-inactive, .icon-admin-status-completed-active, .order-status5, .icon-admin-status-completed-inactive, .order-status5.inactive, .icon-admin-status-deleted, .order-status0, .icon-admin-status-delivering-active, .order-status4, .icon-admin-status-delivering-inactive, .order-status4.inactive, .icon-admin-status-drop-1, .icon-admin-status-drop-2, .icon-admin-status-not-delivered, .order-status-3, .icon-admin-status-ok-active, .order-status1, .icon-admin-status-ok-inactive, .order-status1.inactive, .icon-admin-status-paid-active, .order-status-paid1, .icon-admin-status-paid-inactive, .order-status-paid0, .icon-admin-status-processing-active, .order-status2, .icon-admin-status-processing-inactive, .order-status2.inactive, .icon-admin-status-returned, .order-status-2, .icon-admin-status-staffed-active, .order-status3, .icon-admin-status-staffed-inactive, .order-status3.inactive, .icon-admin-structure, .icon-admin-user, .icon-admin-video, .icon-admin-white_circle_1, .icon-admin-white_circle_2, .icon-admin-white_circle_3, .icon-admin-white_circle_4 {
+  background-image: url('/images/icon-admin-sbb6ebe2985.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-active_sotrud {
+  background-position: 0 0;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-add-category {
+  background-position: 0 -49px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-add-document {
+  background-position: 0 -125px;
+}
+/* line 59, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-add-document:active, .icon-admin-add-document.add-document-active {
+  background-position: 0 -87px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-add-menu-item {
+  background-position: 0 -257px;
+}
+/* line 59, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-add-menu-item:hover, .icon-admin-add-menu-item.add-menu-item-hover {
+  background-position: 0 -210px;
+}
+/* line 59, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-add-menu-item:focus, .icon-admin-add-menu-item.add-menu-item-focus {
+  background-position: 0 -163px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-add-product {
+  background-position: 0 -349px;
+}
+/* line 59, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-add-product:hover, .icon-admin-add-product.add-product-hover {
+  background-position: 0 -304px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-add_folder {
+  background-position: 0 -394px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-add_list {
+  background-position: 0 -436px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-all_users {
+  background-position: 0 -478px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-answer-module {
+  background-position: 0 -671px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-articule {
+  background-position: 0 -741px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-askanswer {
+  background-position: 0 -811px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-banner {
+  background-position: 0 -1004px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-banners {
+  background-position: 0 -1074px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-base-settings {
+  background-position: 0 -1267px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-blocks {
+  background-position: 0 -1460px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-blue_circle_1 {
+  background-position: 0 -1653px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-blue_circle_2 {
+  background-position: 0 -1677px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-blue_circle_3 {
+  background-position: 0 -1701px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-blue_circle_4 {
+  background-position: 0 -1725px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-cart {
+  background-position: 0 -1749px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-catalog-menu {
+  background-position: 0 -1909px;
+}
+/* line 59, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-catalog-menu:hover, .icon-admin-catalog-menu.catalog-menu-hover {
+  background-position: 0 -1864px;
+}
+/* line 59, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-catalog-menu:focus, .icon-admin-catalog-menu.catalog-menu-focus {
+  background-position: 0 -1819px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-catalog {
+  background-position: 0 -1954px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-changePsw {
+  background-position: 0 -2147px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-chat {
+  background-position: 0 -2194px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-clients {
+  background-position: 0 -2264px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-close_photo {
+  background-position: 0 -2457px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-comments {
+  background-position: 0 -2501px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-contacts {
+  background-position: 0 -2571px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-copy-product {
+  background-position: 0 -2809px;
+}
+/* line 59, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-copy-product:hover, .icon-admin-copy-product.copy-product-hover {
+  background-position: 0 -2764px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-currency {
+  background-position: 0 -2854px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-delete {
+  background-position: 0 -3076px;
+}
+/* line 59, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-delete:hover, .icon-admin-delete.delete-hover {
+  background-position: 0 -3047px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-delivery {
+  background-position: 0 -3105px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-delivery_post {
+  background-position: 0 -3142px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-email {
+  background-position: 0 -3174px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-feedback {
+  background-position: 0 -3204px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-file {
+  background-position: 0 -3397px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-folder-gray {
+  background-position: 0 -3439px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-folder-news {
+  background-position: 0 -3482px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-folder-orange {
+  background-position: 0 -3524px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-gallery {
+  background-position: 0 -3567px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-label-stars {
+  background-position: 0 -3760px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-links {
+  background-position: 0 -3802px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-little_message_company {
+  background-position: 0 -3872px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-little_phone {
+  background-position: 0 -3902px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-little_user_company {
+  background-position: 0 -3934px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-main_settings {
+  background-position: 0 -3966px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-menu-folder-big {
+  background-position: 0 -4034px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-menu-folder {
+  background-position: 0 -4102px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-menu {
+  background-position: 0 -4150px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-modal-close {
+  background-position: 0 -4343px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-module-menu {
+  background-position: 0 -4402px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-move-product {
+  background-position: 0 -4517px;
+}
+/* line 59, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-move-product:hover, .icon-admin-move-product.move-product-hover {
+  background-position: 0 -4472px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-news {
+  background-position: 0 -4562px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-order-status-completed-active {
+  background-position: 0 -4755px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-order-status-completed-inactive {
+  background-position: 0 -4795px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-permission {
+  background-position: 0 -4835px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-phone {
+  background-position: 0 -4903px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-power-switch-green {
+  background-position: 0 -4935px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-power-switch-red {
+  background-position: 0 -4970px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-price {
+  background-position: 0 -5005px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-reset {
+  background-position: 0 -5075px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-reviews {
+  background-position: 0 -5108px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-self-pickup {
+  background-position: 0 -5301px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-settings-label {
+  background-position: 0 -5340px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-settings {
+  background-position: 0 -5408px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-slider {
+  background-position: 0 -5446px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-status-cancelled, .order-status-1 {
+  background-position: 0 -5639px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-status-compiled-active {
+  background-position: 0 -5681px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-status-compiled-inactive {
+  background-position: 0 -5735px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-status-completed-active, .order-status5 {
+  background-position: 0 -5792px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-status-completed-inactive, .order-status5.inactive {
+  background-position: 0 -5834px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-status-deleted, .order-status0 {
+  background-position: 0 -5876px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-status-delivering-active, .order-status4 {
+  background-position: 0 -5918px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-status-delivering-inactive, .order-status4.inactive {
+  background-position: 0 -5960px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-status-drop-1 {
+  background-position: 0 -6002px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-status-drop-2 {
+  background-position: 0 -6053px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-status-not-delivered, .order-status-3 {
+  background-position: 0 -6104px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-status-ok-active, .order-status1 {
+  background-position: 0 -6144px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-status-ok-inactive, .order-status1.inactive {
+  background-position: 0 -6186px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-status-paid-active, .order-status-paid1 {
+  background-position: 0 -6228px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-status-paid-inactive, .order-status-paid0 {
+  background-position: 0 -6268px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-status-processing-active, .order-status2 {
+  background-position: 0 -6308px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-status-processing-inactive, .order-status2.inactive {
+  background-position: 0 -6350px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-status-returned, .order-status-2 {
+  background-position: 0 -6392px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-status-staffed-active, .order-status3 {
+  background-position: 0 -6432px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-status-staffed-inactive, .order-status3.inactive {
+  background-position: 0 -6474px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-structure {
+  background-position: 0 -6516px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-user {
+  background-position: 0 -6709px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-video {
+  background-position: 0 -6741px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-white_circle_1 {
+  background-position: 0 -6811px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-white_circle_2 {
+  background-position: 0 -6835px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-white_circle_3 {
+  background-position: 0 -6859px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-admin-white_circle_4 {
+  background-position: 0 -6883px;
+}
+
+/* line 5, _icons_admin.scss */
+.icon-admin-add-product, .icon-admin-add-category, .icon-admin-move-product, .icon-admin-copy-product, .icon-admin-catalog-menu {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+/* line 12, _icons_admin.scss */
+.icon-admin-power-switch-green, .icon-admin-power-switch-red {
+  width: 14px;
+  height: 15px;
+  display: inline-block;
+}
+
+/* line 18, _icons_admin.scss */
+.icon-admin-email {
+  width: 13px;
+  height: 10px;
+  display: inline-block;
+}
+
+/* line 24, _icons_admin.scss */
+.icon-admin-phone {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+
+/* line 30, _icons_admin.scss */
+.icon-admin-user {
+  width: 11px;
+  height: 12px;
+  display: inline-block;
+}
+
+/* line 36, _icons_admin.scss */
+.icon-admin-menu-catalog-tree {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+}
+
+/* line 42, _icons_admin.scss */
+.icon-admin-folder-gray, .icon-admin-folder-orange, .icon-admin-folder-news {
+  width: 28px;
+  height: 23px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 6px;
+  margin-right: 6px;
+  margin-top: -5px;
+}
+
+/* line 52, _icons_admin.scss */
+.icon-admin-folder-news {
+  width: 20px;
+}
+
+/* line 56, _icons_admin.scss */
+.icon-admin-settings {
+  display: block;
+  width: 18px;
+  height: 18px;
+}
+
+/* line 62, _icons_admin.scss */
+.icon-admin-delete {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+}
+
+/* line 68, _icons_admin.scss */
+.icon-admin-add-menu-item {
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+}
+
+/* line 74, _icons_admin.scss */
+.icon-admin-menu-folder {
+  float: left;
+  width: 25px;
+  height: 29px;
+  margin: 0 10px 0 5px;
+}
+
+/* line 81, _icons_admin.scss */
+.icon-admin-menu-folder-big {
+  display: inline-block;
+  width: 42px;
+  height: 48px;
+  margin: -13px 17px 0 17px;
+}
+
+/* line 232, icon-site/*.png */
+.icon-site-sprite, .icon-site-arrow-left, .icon-site-arrow-right, .icon-site-arrow-up, .icon-site-back, .icon-site-dot-comment, .icon-site-home, .icon-site-refresh, .icon-site-status-cancelled, .order-status-1.big, .icon-site-status-completed-active, .order-status5.big, .icon-site-status-completed-inactive, .order-status5.big.inactive, .icon-site-status-deleted, .order-status0.big, .icon-site-status-delivering-active, .order-status4.big, .icon-site-status-delivering-inactive, .order-status4.big.inactive, .icon-site-status-not-delivered, .order-status-3.big, .icon-site-status-ok-active, .order-status1.big, .icon-site-status-ok-inactive, .order-status1.big.inactive, .icon-site-status-paid-active, .order-status-paid1.big, .icon-site-status-paid-inactive, .order-status-paid0.big, .icon-site-status-processing-active, .order-status2.big, .icon-site-status-processing-inactive, .order-status2.big.inactive, .icon-site-status-returned, .order-status-2.big, .icon-site-status-staffed-active, .order-status3.big, .icon-site-status-staffed-inactive, .order-status3.big.inactive, .icon-site-warning {
+  background-image: url('/images/icon-site-sdf06069d67.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-arrow-left {
+  background-position: 0 0;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-arrow-right {
+  background-position: 0 -64px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-arrow-up {
+  background-position: 0 -128px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-back {
+  background-position: 0 -175px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-dot-comment {
+  background-position: 0 -207px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-home {
+  background-position: 0 -236px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-refresh {
+  background-position: 0 -271px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-status-cancelled, .order-status-1.big {
+  background-position: 0 -306px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-status-completed-active, .order-status5.big {
+  background-position: 0 -356px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-status-completed-inactive, .order-status5.big.inactive {
+  background-position: 0 -406px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-status-deleted, .order-status0.big {
+  background-position: 0 -456px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-status-delivering-active, .order-status4.big {
+  background-position: 0 -506px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-status-delivering-inactive, .order-status4.big.inactive {
+  background-position: 0 -556px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-status-not-delivered, .order-status-3.big {
+  background-position: 0 -606px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-status-ok-active, .order-status1.big {
+  background-position: 0 -663px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-status-ok-inactive, .order-status1.big.inactive {
+  background-position: 0 -713px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-status-paid-active, .order-status-paid1.big {
+  background-position: 0 -763px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-status-paid-inactive, .order-status-paid0.big {
+  background-position: 0 -817px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-status-processing-active, .order-status2.big {
+  background-position: 0 -871px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-status-processing-inactive, .order-status2.big.inactive {
+  background-position: 0 -921px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-status-returned, .order-status-2.big {
+  background-position: 0 -971px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-status-staffed-active, .order-status3.big {
+  background-position: 0 -1028px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-status-staffed-inactive, .order-status3.big.inactive {
+  background-position: 0 -1078px;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-site-warning {
+  background-position: 0 -1128px;
+}
+
+/* line 21, backend.scss */
+body, html {
+  height: 100%;
+  font-family: arial;
+  font-size: 14px;
+}
+
+/* line 27, backend.scss */
+.text-blue2 {
+  color: #0849e1;
+}
+
+/* line 31, backend.scss */
+.text-gray4 {
+  color: #979797;
+}
+
+/* line 35, backend.scss */
+.ghost-footer {
+  height: 100px;
+}
+
+/* line 40, backend.scss */
+#orders_tabs .tab-content > .tab-pane#tab-common {
+  display: block;
+  height: 0px;
+  opacity: 0;
+  position: absolute;
+  width: 980px;
+}
+/* line 47, backend.scss */
+#orders_tabs .tab-content > #tab-common.active {
+  opacity: 1;
+  height: auto;
+  padding-bottom: 80px;
+}
+/* line 52, backend.scss */
+#orders_tabs .tab-content {
+  height: auto;
+}
+
+/* line 60, backend.scss */
+.add-label .bootstrap-select button[title="red"] .fa.fa-star {
+  color: red;
+}
+/* line 65, backend.scss */
+.add-label .bootstrap-select button[title="primary"] .fa.fa-star {
+  color: #1242e3;
+}
+/* line 70, backend.scss */
+.add-label .bootstrap-select button[title="orange"] .fa.fa-star {
+  color: #f59110;
+}
+/* line 75, backend.scss */
+.add-label .bootstrap-select button[title="green"] .fa.fa-star {
+  color: #009f00;
+}
+/* line 80, backend.scss */
+.add-label .bootstrap-select button[title="-"] .fa.fa-star {
+  color: transparent;
+}
+/* line 85, backend.scss */
+.add-label .fa-close {
+  cursor: pointer;
+}
+
+/* line 93, backend.scss */
+.one-order-product .product-title a:hover, .one-order-product .product-title a:focus, .one-order-product .product-title a:active {
+  text-decoration: none;
+  color: #000;
+}
+
+/* line 101, backend.scss */
+span.fa.fa-star.color-undefined {
+  color: transparent;
+}
+
+/* line 106, backend.scss */
+.table_order_user input {
+  height: 26px;
+  margin-left: -12px;
+}
+/* line 109, backend.scss */
+.table_order_user input[readonly] {
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: default;
+  outline: none;
+  box-shadow: none;
+}
+
+/* line 119, backend.scss */
+#Products_review {
+  padding-top: 20px;
+}
+/* line 121, backend.scss */
+#Products_review .buttons_group .btn-group {
+  margin-left: 5px;
+}
+/* line 125, backend.scss */
+#Products_review #products-list .items {
+  margin-top: 10px;
+}
+/* line 127, backend.scss */
+#Products_review #products-list .items .one_item img.sort {
+  margin-right: 25px;
+}
+
+/* line 134, backend.scss */
+#order-delivery-form .map, #order-delivery-form img {
+  max-width: none;
+}
+
+/* line 138, backend.scss */
+.wrapper {
+  min-height: 100%;
+}
+
+/* line 143, backend.scss */
+footer {
+  height: 100px;
+}
+
+/* line 147, backend.scss */
+a {
+  color: #000000;
+}
+
+/* line 151, backend.scss */
+textArea {
+  height: 150px;
+  width: 60%;
+}
+
+/* line 156, backend.scss */
+.redactor_box {
+  margin-bottom: 10px;
+}
+/* line 158, backend.scss */
+.redactor_box .redactor_editor {
+  height: 200px;
+}
+
+/* line 163, backend.scss */
+.container {
+  max-width: 980px !important;
+}
+
+/* line 167, backend.scss */
+.container-fluid {
+  padding: 0;
+}
+
+/* line 171, backend.scss */
+.no-right {
+  padding-right: 0;
+}
+
+/* line 175, backend.scss */
+.no-left {
+  padding-left: 0;
+}
+
+/* line 179, backend.scss */
+.no-all {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 184, backend.scss */
+.head-line {
+  height: 20px;
+  background-color: #e4e4e4;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+/* line 191, backend.scss */
+.nav-tabs > li > a {
+  padding: 5px 15px;
+  color: #979797;
+}
+
+/* ╨Т╨╡╤А╤Е╨╜╨╡╨╡ ╨╝╨╡╨╜╤О ╨╜╨░ ╨│╨╗╨░╨╜╨▓╨╜╨╛╨╣ */
+/* line 199, backend.scss */
+.home-menu-block {
+  margin-top: 15px;
+}
+/* line 201, backend.scss */
+.home-menu-block .logo {
+  margin-bottom: 12px;
+}
+
+/* line 207, backend.scss */
+#home-menu, .top-menu-select {
+  margin-top: 13px;
+}
+/* line 209, backend.scss */
+#home-menu li, .top-menu-select li {
+  float: left;
+  list-style: none;
+  padding: 0 10px;
+}
+/* line 213, backend.scss */
+#home-menu li a, .top-menu-select li a {
+  display: block;
+  padding: 15px 0;
+  color: #1246d8;
+  border-bottom: 3px solid transparent;
+}
+/* line 218, backend.scss */
+#home-menu li a:hover, .top-menu-select li a:hover {
+  text-decoration: none;
+  color: black;
+  border-bottom: 3px solid #00ab00;
+}
+
+/* line 229, backend.scss */
+.main_page h3 {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 25px;
+  float: left;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+/* line 236, backend.scss */
+.main_page h3 + a {
+  padding-top: 27px;
+  margin-left: 30px;
+  color: #0749e1;
+  display: inline-block;
+}
+/* line 243, backend.scss */
+.main_page .main_page_cont {
+  width: 173px;
+  height: 173px;
+  float: left;
+  padding: 33px 46px 62px;
+  transition-duration: .4s;
+  margin-left: 7px;
+  margin-right: 7px;
+  position: relative;
+  margin-bottom: 10px;
+}
+/* line 253, backend.scss */
+.main_page .main_page_cont img {
+  width: 79px;
+  position: relative;
+  z-index: 9999;
+  border-radius: 8px;
+  height: 77px;
+  background-color: #efefef;
+  box-shadow: 3px 3px 5px #b9b9b9;
+}
+/* line 262, backend.scss */
+.main_page .main_page_cont:hover {
+  padding: 0;
+}
+/* line 264, backend.scss */
+.main_page .main_page_cont:hover img {
+  width: 100%;
+  height: 100%;
+  background-color: #efefef;
+}
+/* line 270, backend.scss */
+.main_page .main_page_cont span {
+  position: absolute;
+  top: 135px;
+  left: 0%;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+/* line 282, backend.scss */
+.main_page .modules {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+/* line 289, backend.scss */
+.news-_form-form .qq-uploader .qq-upload-button, .catalog-tree-form-form .qq-uploader .qq-upload-button {
+  left: 22px;
+}
+
+/* line 296, backend.scss */
+.payment-info .control-label {
+  padding-top: 5px;
+}
+
+/* line 301, backend.scss */
+.rotate {
+  transform: rotate(180deg);
+}
+
+/*╨Ъ╨╛╨╜╨╡╤Ж ╨Т╨╡╤А╤Е╨╜╨╡╨╡ ╨╝╨╡╨╜╤О ╨╜╨░ ╨│╨╗╨░╨▓╨╜╨╛╨╣*/
+/*╨▓╨╡╤А╤Е╨╜╨╕╨╡ ╨╝╨╡╨╜╤О*/
+/* line 309, backend.scss */
+.main-title-block {
+  height: 75px;
+  vertical-align: middle;
+}
+/* line 312, backend.scss */
+.main-title-block.main-title {
+  padding-top: 20px;
+}
+/* line 314, backend.scss */
+.main-title-block.main-title .title {
+  font-size: 30px;
+}
+/* line 318, backend.scss */
+.main-title-block.module-title {
+  background-color: #e4e4e4;
+  border: 1px solid #cfcfcf;
+  padding-top: 25px;
+}
+/* line 322, backend.scss */
+.main-title-block.module-title .title {
+  font-size: 24px;
+  float: left;
+}
+/* line 327, backend.scss */
+.main-title-block.module-title .top-filter .title {
+  margin-top: 15px;
+  font-weight: normal !important;
+}
+/* line 331, backend.scss */
+.main-title-block.module-title .top-filter .fa {
+  margin-top: 16px;
+}
+/* line 335, backend.scss */
+.main-title-block.module-title .menu-back, .main-title-block.module-title .fa.fa-angle-left {
+  line-height: 20px;
+  font-size: 25px;
+}
+/* line 339, backend.scss */
+.main-title-block.module-title .title-block {
+  float: left;
+  padding-top: 25px;
+}
+/* line 342, backend.scss */
+.main-title-block.module-title .title-block .date {
+  font-size: 12px;
+  padding-left: 25px;
+}
+/* line 348, backend.scss */
+.main-title-block.module-title a:hover {
+  text-decoration: none;
+}
+/* line 353, backend.scss */
+.main-title-block.module-title .order-block .price-block, .main-title-block.module-title .order-block .status-block {
+  margin-left: 60px;
+  float: left;
+}
+/* line 357, backend.scss */
+.main-title-block.module-title .order-block .price-block {
+  font-size: 16px;
+  margin-top: 20px;
+}
+/* line 360, backend.scss */
+.main-title-block.module-title .order-block .price-block > * {
+  float: left;
+}
+/* line 363, backend.scss */
+.main-title-block.module-title .order-block .price-block .price {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* line 367, backend.scss */
+.main-title-block.module-title .order-block .price-block .number {
+  color: #1242e3;
+}
+/* line 370, backend.scss */
+.main-title-block.module-title .order-block .price-block .cur {
+  color: #979797;
+}
+/* line 374, backend.scss */
+.main-title-block.module-title .order-block .status-block {
+  margin-top: 10px;
+}
+/* line 377, backend.scss */
+.main-title-block.module-title .order-block .gray-title {
+  color: #979797;
+  margin-bottom: 5px;
+}
+/* line 383, backend.scss */
+.main-title-block .title {
+  float: left;
+}
+/* line 386, backend.scss */
+.main-title-block .menu-back {
+  font-size: 30px;
+  margin-right: 5px;
+  padding: 0 5px;
+  float: left;
+}
+/* line 392, backend.scss */
+.main-title-block .dropdown {
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+/* line 396, backend.scss */
+.main-title-block .dropdown .btn {
+  padding: 2px 6px;
+}
+
+/*╨║╨╛╨╜╨╡╤Ж ╨▓╨╡╤А╤Е╨╜╨╕╨╡ ╨╝╨╡╨╜╤О*/
+/*╨Ъ╤А╨╛╤И╨║╨╕*/
+/* line 406, backend.scss */
+.breadcrumbs {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  color: #737373;
+}
+/* line 411, backend.scss */
+.breadcrumbs a {
+  color: #979797;
+}
+/* line 413, backend.scss */
+.breadcrumbs a:hover {
+  color: #979797;
+  text-decoration: underline;
+}
+/* line 418, backend.scss */
+.breadcrumbs span {
+  color: #737373;
+}
+
+/*╨Ъ╨╛╨╜╨╡╤Ж ╨Ъ╤А╨╛╤И╨║╨╕*/
+/* line 425, backend.scss */
+.qq-upload-list li.qq-upload-success {
+  width: 130px;
+  margin-top: 15px;
+}
+
+/* line 430, backend.scss */
+.qq-upload-drop-area span {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/*╨Ь╨╡╨╜╤О ╤Б╨┐╨╕╤Б╨╛╨║ ╨▓ ╨╛╤Б╨╜╨╛╨▓╨╜╨╛╨╝ ╨║╨╛╨╜╤В╨╡╨╜╤В╨╡*/
+/* line 437, backend.scss */
+.menu-list .menu-item {
+  padding: 10px;
+  display: table;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* line 442, backend.scss */
+.menu-list .menu-item:hover {
+  background-color: #e4e4e4;
+  color: #0849e1;
+  text-decoration: none;
+}
+/* line 446, backend.scss */
+.menu-list .menu-item:hover img {
+  border: 1px solid #cfcfcf;
+  background-color: #fff;
+  box-shadow: none;
+}
+/* line 452, backend.scss */
+.menu-list .menu-item img {
+  background-color: #efefef;
+  box-shadow: 2px 2px 5px #cfcfcf;
+  border: 1px solid transparent;
+}
+/* line 457, backend.scss */
+.menu-list .menu-item > div {
+  float: none;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* ╨Ъ╨╛╨╜╨╡╤Ж ╨Ь╨╡╨╜╤О ╤Б╨┐╨╕╤Б╨╛╨║ ╨▓ ╨╛╤Б╨╜╨╛╨▓╨╜╨╛╨╝ ╨║╨╛╨╜╤В╨╡╨╜╤В╨╡*/
+/*╨б╤В╨░╤В╤Г╤Б╤Л ╨╖╨░╨║╨░╨╖╨╛╨▓*/
+/* line 468, backend.scss */
+[class*=order-status] {
+  width: 21px;
+  height: 21px;
+  display: inline-block;
+}
+/* line 472, backend.scss */
+[class*=order-status].big {
+  width: 36px;
+  height: 36px;
+}
+
+/*╨Ъ╨╛╨╜╨╡╤Ж ╨б╤В╨░╤В╤Г╤Б╤Л ╨╖╨░╨║╨░╨╖╨╛╨▓*/
+/*╨б╨┐╨╕╤Б╨╛╨║ ╨╖╨░╨║╨░╨╖╨╛╨▓*/
+/* line 589, backend.scss */
+.c-client .status {
+  color: white;
+  padding: 1px 7px;
+  display: inline-block;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 594, backend.scss */
+.c-client .status.s0 {
+  background-color: #B94A48;
+}
+/* line 597, backend.scss */
+.c-client .status.s1 {
+  background-color: #7fcf7f;
+}
+/* line 601, backend.scss */
+.c-client .name {
+  margin-bottom: 20px;
+}
+
+/* line 606, backend.scss */
+.order-list {
+  font-size: 12px;
+}
+/* line 609, backend.scss */
+.order-list [class*="c-"] {
+  float: left;
+  margin-right: 11px;
+  line-height: 17px;
+}
+/* line 614, backend.scss */
+.order-list .c-num {
+  width: 60px;
+}
+/* line 618, backend.scss */
+.order-list .c-date {
+  width: 80px;
+}
+/* line 622, backend.scss */
+.order-list .c-client {
+  width: 230px;
+}
+/* line 627, backend.scss */
+.order-list .c-sum {
+  width: 120px;
+  position: relative;
+}
+/* line 630, backend.scss */
+.order-list .c-sum .status {
+  right: 0;
+  position: absolute;
+  bottom: 0;
+}
+/* line 637, backend.scss */
+.order-list .items .c-sum {
+  min-height: 85px;
+}
+/* line 642, backend.scss */
+.order-list .c-worker {
+  width: 250px;
+}
+/* line 646, backend.scss */
+.order-list .c-status {
+  width: 150px;
+}
+/* line 648, backend.scss */
+.order-list .c-status [class*=order-status] {
+  margin-right: 9px;
+}
+/* line 651, backend.scss */
+.order-list .c-status .left, .order-list .c-status .right {
+  float: left;
+}
+/* line 654, backend.scss */
+.order-list .c-status .left {
+  width: 60px;
+}
+/* line 656, backend.scss */
+.order-list .c-status .left .icon-admin-delivery {
+  height: 17px;
+  width: 23px;
+}
+/* line 660, backend.scss */
+.order-list .c-status .left .icon-admin-delivery_post {
+  height: 17px;
+  width: 23px;
+}
+/* line 664, backend.scss */
+.order-list .c-status .left .icon-admin-self-pickup {
+  height: 12px;
+  width: 19px;
+}
+/* line 669, backend.scss */
+.order-list .c-status .right {
+  width: 90px;
+}
+/* line 672, backend.scss */
+.order-list .c-status .info {
+  margin-top: 14px;
+}
+/* line 677, backend.scss */
+.order-list .header {
+  margin-bottom: 25px;
+}
+/* line 679, backend.scss */
+.order-list .header [class*="c-"] {
+  color: #979797;
+}
+/* line 684, backend.scss */
+.order-list .item {
+  font-size: 12px;
+  display: block;
+  margin-bottom: 5px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+/* line 690, backend.scss */
+.order-list .item:hover {
+  background-color: #e4e4e4;
+  color: black;
+}
+
+/*╨Ъ╨╛╨╜╨╡╤Ж ╨б╨┐╨╕╤Б╨╛╨║ ╨╖╨░╨║╨░╨╖╨╛╨▓*/
+/*╨б╨в╤А╨░╨╜╨╕╤Ж╨░ ╨╖╨░╨║╨░╨╖╨░*/
+/* line 704, backend.scss */
+.order-block .block-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+/* line 710, backend.scss */
+.order-block .order-info-block {
+  font-size: 12px;
+  line-height: 17px;
+}
+/* line 713, backend.scss */
+.order-block .order-info-block [class*="col-md-"] {
+  padding: 0 10px;
+}
+/* line 717, backend.scss */
+.order-block .order-info-block .c-status .big {
+  margin-right: 5px;
+}
+/* line 721, backend.scss */
+.order-block .order-info-block .c-avatar img {
+  max-width: 60px;
+  max-height: 60px;
+}
+/* line 725, backend.scss */
+.order-block .order-info-block .title {
+  margin-bottom: 15px;
+  color: #979797;
+}
+/* line 732, backend.scss */
+.order-block .form-horizontal .title {
+  color: #979797;
+  text-align: right;
+}
+/* line 739, backend.scss */
+.order-block .tabs-block [class*="c-"], .order-block #items-products-print [class*="c-"] {
+  float: left;
+}
+/* line 743, backend.scss */
+.order-block .tabs-block .tab-content, .order-block #items-products-print .tab-content {
+  margin-top: 30px;
+}
+/* line 745, backend.scss */
+.order-block .tabs-block .tab-content .block-title, .order-block #items-products-print .tab-content .block-title {
+  margin-bottom: 30px;
+}
+/* line 750, backend.scss */
+.order-block .tabs-block .header, .order-block #items-products-print .header {
+  margin-bottom: 25px;
+}
+/* line 752, backend.scss */
+.order-block .tabs-block .header [class*="c-"], .order-block #items-products-print .header [class*="c-"] {
+  color: #979797;
+  text-align: center;
+}
+/* line 758, backend.scss */
+.order-block .tabs-block {
+  margin-top: 30px;
+}
+/* line 761, backend.scss */
+.order-block #tab-details, .order-block #items-products-print {
+  font-size: 12px;
+}
+/* line 763, backend.scss */
+.order-block #tab-details [class*="c-"], .order-block #items-products-print [class*="c-"] {
+  padding: 0 7px;
+  text-align: center;
+}
+/* line 767, backend.scss */
+.order-block #tab-details .c-num, .order-block #items-products-print .c-num {
+  width: 60px;
+}
+/* line 770, backend.scss */
+.order-block #tab-details .c-image, .order-block #items-products-print .c-image {
+  width: 60px;
+}
+/* line 773, backend.scss */
+.order-block #tab-details .c-barcode, .order-block #items-products-print .c-barcode {
+  width: 235px;
+}
+/* line 776, backend.scss */
+.order-block #tab-details .c-title, .order-block #items-products-print .c-title {
+  width: 240px;
+}
+/* line 779, backend.scss */
+.order-block #tab-details .c-price, .order-block #items-products-print .c-price {
+  width: 130px;
+}
+/* line 782, backend.scss */
+.order-block #tab-details .c-count, .order-block #items-products-print .c-count {
+  width: 130px;
+}
+/* line 783, backend.scss */
+.order-block #tab-details .c-count i, .order-block #items-products-print .c-count i {
+  color: #979797;
+}
+/* line 787, backend.scss */
+.order-block #tab-details .c-count span.input, .order-block #items-products-print .c-count span.input {
+  width: 60px;
+  line-height: 30px;
+  border: 1px solid #979797;
+  display: inline-block;
+  margin: 0 5px;
+}
+/* line 795, backend.scss */
+.order-block #tab-details .c-sum, .order-block #items-products-print .c-sum {
+  width: 100px;
+}
+/* line 798, backend.scss */
+.order-block #tab-details .c-status, .order-block #items-products-print .c-status {
+  width: 130px;
+}
+/* line 801, backend.scss */
+.order-block #tab-details .order, .order-block #items-products-print .order {
+  margin-bottom: 20px;
+}
+/* line 804, backend.scss */
+.order-block #tab-details .add-link, .order-block #items-products-print .add-link {
+  font-size: 14px;
+}
+/* line 806, backend.scss */
+.order-block #tab-details .add-link a, .order-block #items-products-print .add-link a {
+  color: #1242e3;
+}
+/* line 810, backend.scss */
+.order-block #tab-details .footer, .order-block #items-products-print .footer {
+  margin: 30px 0;
+  padding: 15px 0;
+  border-top: 1px solid #979797;
+  border-bottom: 1px solid #979797;
+}
+/* line 817, backend.scss */
+.order-block #tab-details .label, .order-block #tab-details .value, .order-block #items-products-print .label, .order-block #items-products-print .value {
+  font-weight: normal;
+  font-size: 14px;
+}
+/* line 821, backend.scss */
+.order-block #tab-details .label, .order-block #items-products-print .label {
+  color: #979797;
+  text-align: right;
+}
+/* line 826, backend.scss */
+.order-block #tab-details .value span, .order-block #items-products-print .value span {
+  color: #979797;
+}
+
+/*╨Ъ╨╛╨╜╨╡╤Ж ╨б╨в╤А╨░╨╜╨╕╤Ж╨░ ╨╖╨░╨║╨░╨╖╨░*/
+/*╨д╨Ш╨╗╤М╤В╤А ╨▓ ╨╖╨░╨│╨╛╨╗╨╛╨▓╨║╨╡*/
+/* line 836, backend.scss */
+.top-filter {
+  margin-top: -15px;
+}
+/* line 838, backend.scss */
+.top-filter input[type=text], .top-filter select {
+  -moz-border-radius: 0 / 0;
+  -webkit-border-radius: 0 0;
+  border-radius: 0 / 0;
+  height: 30px;
+  padding: 5px;
+}
+/* line 843, backend.scss */
+.top-filter .filter-title {
+  margin-bottom: 10px;
+  color: #979797;
+  font-size: 12px;
+}
+/* line 849, backend.scss */
+.top-filter .period .from, .top-filter .period .to, .top-filter .period .date_from, .top-filter .period .date_to {
+  display: inline-block;
+  width: 90px;
+}
+
+/*╨Ъ╨╛╨╜╨╡╤Ж ╨д╨Ш╨╗╤М╤В╤А ╨▓ ╨╖╨░╨│╨╛╨╗╨╛╨▓╨║╨╡*/
+/*PopupFormWidget*/
+/* line 859, backend.scss */
+.popup-form {
+  border-radius: 0;
+  width: 325px;
+}
+
+/* line 864, backend.scss */
+.popup-form .popover-title {
+  border: none;
+}
+
+/* line 868, backend.scss */
+.popup-form .popup-form-content {
+  height: 200px;
+  overflow: auto;
+}
+
+/* line 873, backend.scss */
+.popup-form select {
+  outline: 0;
+  border: none;
+  width: 100%;
+}
+
+/* line 879, backend.scss */
+.popup-form .popup-form-footer {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #A9A9A9;
+}
+
+/* line 885, backend.scss */
+.popup-form label {
+  display: inline;
+  margin: 0;
+}
+
+/* line 890, backend.scss */
+.popup-form .item-container {
+  min-height: 35px;
+}
+
+/* line 894, backend.scss */
+.popup-form .item-container input {
+  margin: 0;
+}
+
+/* line 898, backend.scss */
+.popup-form .popup-form-footer .item-container {
+  margin-bottom: 10px;
+}
+
+/* line 902, backend.scss */
+.popup-form .popover-content {
+  padding-bottom: 0;
+}
+
+/* line 906, backend.scss */
+.popup-form .popup-form-footer label {
+  font-size: 12px;
+  color: #595959;
+  padding-left: 5px;
+}
+
+/* line 912, backend.scss */
+.popup-form option {
+  padding: 7px;
+  margin-top: 10px;
+}
+
+/*╨║╨╛╨╜╨╡╤Ж PopupFormWidget*/
+/* line 920, backend.scss */
+#main-left-menu a.action {
+  display: inline;
+}
+
+/* line 926, backend.scss */
+.top-menu-select.navbar-default {
+  box-shadow: none;
+  background: none;
+}
+
+/* line 932, backend.scss */
+.right-content {
+  min-height: 100vh;
+}
+/* line 934, backend.scss */
+.right-content form, .right-content .form {
+  padding-bottom: 80px;
+}
+
+/* line 939, backend.scss */
+.main-content #main-left-tree-menu {
+  margin-top: 30px;
+}
+/* line 941, backend.scss */
+.main-content #main-left-tree-menu > li:not(.closed):not(.open) {
+  padding-left: 68px;
+  background: url(/images/icon-admin/treeview-line.gif) -1px 15px no-repeat;
+}
+
+/* line 948, backend.scss */
+#main-left-tree-menu .icon-admin-folder-news {
+  vertical-align: -6px;
+  margin-left: 4px;
+}
+/* line 953, backend.scss */
+#main-left-tree-menu li {
+  line-height: 30px;
+}
+/* line 959, backend.scss */
+#main-left-tree-menu li a.disable {
+  color: #ff0000;
+}
+/* line 962, backend.scss */
+#main-left-tree-menu li a:hover, #main-left-tree-menu li a.active {
+  color: #0849e1;
+  text-decoration: none;
+}
+/* line 963, backend.scss */
+#main-left-tree-menu li a:hover.disable, #main-left-tree-menu li a.active.disable {
+  color: #ff0000;
+}
+
+/* line 973, backend.scss */
+#settings-index-form .qq-drop-processing {
+  display: none;
+}
+
+/* line 980, backend.scss */
+.wrapper .main-title-block.module-title img {
+  margin-left: 0;
+}
+
+/* line 986, backend.scss */
+.line {
+  border-bottom: 1px solid #a9a9a9;
+  height: 1px;
+  margin: 20px 0 30px 0;
+}
+
+/* line 992, backend.scss */
+div.hidden_info {
+  display: none;
+  position: absolute;
+  top: 90%;
+  left: 100%;
+  z-index: 9999;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin-left: 10px;
+  margin-top: -30px;
+  width: 300px;
+  padding-bottom: 0px;
+  box-shadow: 0px 3px 5px 1px #ccc;
+}
+/* line 1006, backend.scss */
+div.hidden_info img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  float: left;
+  margin-right: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+/* line 1015, backend.scss */
+div.hidden_info span {
+  width: 100%;
+  white-space: normal;
+  margin-top: -2px;
+  display: block;
+  line-height: 20px;
+  color: #000 !important;
+}
+
+/* line 1025, backend.scss */
+.left-content {
+  font-size: 12px;
+}
+/* line 1028, backend.scss */
+.left-content li.collapsable a.title, .left-content li.expandable a.title, .left-content li.closed a.title, .left-content li.last a.title {
+  white-space: nowrap;
+  position: relative;
+  margin-left: 34px;
+  margin-top: -30px;
+  display: block;
+}
+/* line 1034, backend.scss */
+.left-content li.collapsable a.title::after, .left-content li.expandable a.title::after, .left-content li.closed a.title::after, .left-content li.last a.title::after {
+  content: '';
+  text-align: center;
+  margin-top: 1.5px;
+  position: absolute;
+  right: -26px;
+  top: 0;
+  padding-left: 10px;
+  width: 70px;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.2), #ffffff 40%);
+}
+/* line 1046, backend.scss */
+.left-content li.collapsable a.title .idint, .left-content li.collapsable a.title .count_products, .left-content li.expandable a.title .idint, .left-content li.expandable a.title .count_products, .left-content li.closed a.title .idint, .left-content li.closed a.title .count_products, .left-content li.last a.title .idint, .left-content li.last a.title .count_products {
+  float: left;
+  font-size: 12px;
+  color: #979797 !important;
+}
+/* line 1051, backend.scss */
+.left-content li.collapsable a.title .count_products, .left-content li.expandable a.title .count_products, .left-content li.closed a.title .count_products, .left-content li.last a.title .count_products {
+  float: right;
+}
+/* line 1055, backend.scss */
+.left-content li.collapsable a.title:hover::after, .left-content li.expandable a.title:hover::after, .left-content li.closed a.title:hover::after, .left-content li.last a.title:hover::after {
+  content: url("/images/drag_drop.png");
+  /* ╨Т╤Л╨▓╨╛╨┤╨╕╨╝ ╤Н╨╗╨╡╨╝╨╡╨╜╤В */
+}
+/* line 1061, backend.scss */
+.left-content .buttons {
+  margin-bottom: 20px;
+}
+/* line 1064, backend.scss */
+.left-content .buttons .dropdown > a {
+  padding: 0;
+  width: 40px;
+  height: 26px;
+}
+/* line 1070, backend.scss */
+.left-content .buttons .dropdown a:hover {
+  background: #2853e4;
+  color: white;
+}
+/* line 1077, backend.scss */
+.left-content .list-view {
+  padding-top: 10px;
+}
+
+/* line 1082, backend.scss */
+.form .title.related_title {
+  margin-top: 44px;
+  float: left;
+}
+
+/* line 1087, backend.scss */
+.right-content {
+  background-color: #fff;
+}
+/* line 1089, backend.scss */
+.right-content .title {
+  font-size: 18px;
+  color: #000000;
+  margin: 35px 0 30px 0;
+}
+/* line 1093, backend.scss */
+.right-content .title.title-page {
+  margin-top: 5px;
+}
+/* line 1097, backend.scss */
+.right-content .pagination {
+  float: left;
+}
+
+/* line 1102, backend.scss */
+.btn-small {
+  border: 1px solid #cfcfcf;
+  line-height: 1;
+  padding: 3px 11px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U4ZThlOCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #e8e8e8), color-stop(100%, #ffffff));
+  background-image: -moz-linear-gradient(bottom, #e8e8e8, #ffffff);
+  background-image: -webkit-linear-gradient(bottom, #e8e8e8, #ffffff);
+  background-image: linear-gradient(to top, #e8e8e8, #ffffff);
+}
+/* line 1107, backend.scss */
+.btn-small:hover {
+  background: none;
+  background-color: #fff;
+}
+/* line 1111, backend.scss */
+.btn-small.btn-active {
+  margin-left: 115px;
+}
+/* line 1114, backend.scss */
+.btn-small.btn-trash {
+  margin-left: 40px;
+  padding: 2px 10.5px;
+}
+/* line 1118, backend.scss */
+.btn-small .fa {
+  font-size: 19px;
+}
+
+/* line 1123, backend.scss */
+#edittitle {
+  margin-left: 8px;
+}
+
+/* line 1127, backend.scss */
+.main-center-block .left-title {
+  height: 20px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 1134, backend.scss */
+.errorMessage {
+  color: #B94A48;
+  display: block;
+}
+
+/* line 1139, backend.scss */
+.thumbnail {
+  border: none;
+  box-shadow: none;
+}
+
+/* line 1144, backend.scss */
+.main-center-block {
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* line 1149, backend.scss */
+.btn-link {
+  color: black;
+  text-decoration: underline;
+}
+
+/* line 1154, backend.scss */
+.btn-link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 1159, backend.scss */
+.no-effect-menu .btn {
+  border: none;
+  border-radius: 0;
+  background: none;
+  padding: 3px 3px;
+  box-shadow: none;
+}
+
+/* line 1167, backend.scss */
+.no-effect-menu .btn .caret {
+  margin-top: 11px;
+}
+
+/* line 1171, backend.scss */
+.form-group {
+  margin-top: 20px;
+  font-size: 14px;
+  margin-bottom: 13px;
+}
+/* line 1175, backend.scss */
+.form-group .label-block {
+  line-height: 18px;
+  color: #979797;
+  padding-top: 6px;
+  font-weight: normal;
+}
+/* line 1181, backend.scss */
+.form-group .value-block {
+  padding-top: 6px;
+}
+/* line 1184, backend.scss */
+.form-group.buttons {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  border-top: 1px solid #a9a9a9;
+  border-bottom: 1px solid #a9a9a9;
+  background: #ffffff;
+  padding: 15px 0;
+  margin: 0px;
+  z-index: 1100;
+}
+/* line 1195, backend.scss */
+.form-group.buttons button {
+  margin-left: 35%;
+  background: #17c917;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+}
+/* line 1203, backend.scss */
+.form-group .form-control {
+  color: #000000;
+  line-height: 16px;
+  height: 30px;
+}
+/* line 1208, backend.scss */
+.form-group textarea {
+  min-height: 130px;
+}
+
+/* line 1213, backend.scss */
+.nav-tabs {
+  font-size: 14px;
+}
+
+/* line 1217, backend.scss */
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: #1242e3;
+}
+
+/* line 1222, backend.scss */
+.list .item {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-left: 5px solid #B94A48;
+}
+/* line 1226, backend.scss */
+.list .item.active {
+  border-left: 5px solid #7fcf7f;
+}
+/* line 1229, backend.scss */
+.list .item:hover {
+  background-color: #e4e4e4;
+}
+
+/* line 1235, backend.scss */
+#modal_tree.treeview li.closed {
+  line-height: 30px;
+}
+
+/* line 1240, backend.scss */
+.modal-dialog .modal-header {
+  border-bottom: 0px;
+  padding-bottom: 25px;
+}
+/* line 1245, backend.scss */
+.modal-dialog .modal-footer {
+  border-top: 0px;
+  text-align: center;
+}
+/* line 1249, backend.scss */
+.modal-dialog .modal-title {
+  font-size: 18px;
+}
+
+/* line 1254, backend.scss */
+.main-title-page {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 1259, backend.scss */
+.barcode {
+  font-family: Barcode;
+  font-size: 18px;
+  height: 50px;
+  width: 160px;
+}
+
+/* line 1267, backend.scss */
+#items-products-print .title {
+  font-size: 24px;
+}
+/* line 1270, backend.scss */
+#items-products-print .page-num {
+  background: #e4e4e4 !important;
+  color: #ffffff !important;
+  font-size: 34px;
+  text-align: center;
+  line-height: 56px;
+  -webkit-print-color-adjust: exact;
+}
+/* line 1278, backend.scss */
+#items-products-print .price {
+  font-size: 16px;
+  color: #979797;
+}
+/* line 1281, backend.scss */
+#items-products-print .price span {
+  color: #000000;
+}
+/* line 1285, backend.scss */
+#items-products-print .label {
+  color: #979797 !important;
+  border: 0 !important;
+}
+/* line 1288, backend.scss */
+#items-products-print .label.text-left {
+  text-align: left;
+}
+/* line 1293, backend.scss */
+#items-products-print .value span {
+  color: #979797 !important;
+}
+/* line 1297, backend.scss */
+#items-products-print .head-block {
+  border-bottom: 1px solid #979797;
+  margin-bottom: 22px;
+}
+/* line 1301, backend.scss */
+#items-products-print .page {
+  page-break-after: always;
+}
+
+/* line 1307, backend.scss */
+#modalAddProducts #searchstring {
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* line 1321, backend.scss */
+.bootstrap-select .dropdown-toggle.btn-default {
+  background-color: transparent;
+  background-image: none;
+  border-radius: 0;
+  border-color: #DADADA;
+  box-shadow: none;
+}
+/* line 1327, backend.scss */
+.bootstrap-select .dropdown-toggle.btn-default .dropdown-menu {
+  box-shadow: 0px 0px 7px 10px #dadada;
+}
+/* line 1329, backend.scss */
+.bootstrap-select .dropdown-toggle.btn-default .dropdown-menu > li > a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 1332, backend.scss */
+.bootstrap-select .dropdown-toggle.btn-default .dropdown-menu > li > a:hover, .bootstrap-select .dropdown-toggle.btn-default .dropdown-menu > li > a:focus {
+  color: #fff;
+  outline: none;
+}
+
+/* line 1341, backend.scss */
+.dropdown-menu > li > a.circle-0 {
+  padding-left: 12px;
+}
+/* line 1343, backend.scss */
+.dropdown-menu > li > a.circle-0:hover, .dropdown-menu > li > a.circle-0:focus {
+  background: #1242e3;
+  color: #fff;
+}
+
+/* line 1349, backend.scss */
+div.empty {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+/* line 1354, backend.scss */
+.dropdown-menu > li > a.circle-1 {
+  background: url("/images/icon-admin/blue_circle_1.png") 12px 12px no-repeat;
+  padding-left: 24px;
+}
+/* line 1357, backend.scss */
+.dropdown-menu > li > a.circle-1:hover, .dropdown-menu > li > a.circle-1:focus {
+  color: #fff;
+  background: #1242e3 url("/images/icon-admin/white_circle_1.png") 12px 12px no-repeat;
+}
+
+/* line 1363, backend.scss */
+.dropdown-menu > li > a.circle-2 {
+  background: url("/images/icon-admin/blue_circle_2.png") 12px 11px no-repeat;
+  padding-left: 38px;
+}
+/* line 1366, backend.scss */
+.dropdown-menu > li > a.circle-2:hover, .dropdown-menu > li > a.circle-2:focus {
+  color: #fff;
+  background: #1242e3 url("/images/icon-admin/white_circle_2.png") 12px 11px no-repeat;
+}
+
+/* line 1372, backend.scss */
+.dropdown-menu > li > a.circle-3 {
+  background: url("/images/icon-admin/blue_circle_3.png") 12px 11px no-repeat;
+  padding-left: 50px;
+}
+/* line 1375, backend.scss */
+.dropdown-menu > li > a.circle-3:hover, .dropdown-menu > li > a.circle-3:focus {
+  color: #fff;
+  background: #1242e3 url("/images/icon-admin/white_circle_3.png") 12px 11px no-repeat;
+}
+
+/* line 1381, backend.scss */
+.dropdown-menu > li > a.circle-4 {
+  background: url("/images/icon-admin/blue_circle_4.png") 12px 11px no-repeat;
+  padding-left: 62px;
+}
+/* line 1384, backend.scss */
+.dropdown-menu > li > a.circle-4:hover, .dropdown-menu > li > a.circle-4:focus {
+  color: #fff;
+  background: #1242e3 url("/images/icon-admin/white_circle_4.png") 12px 11px no-repeat;
+}
+
+/*---------╨Ш╤Б╨┐╤А╨░╨▓╨╗╨╡╨╜╨╕╤П-----------*/
+/* line 1392, backend.scss */
+.form .title_label {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+/* line 1396, backend.scss */
+.form .title_label label {
+  color: black;
+}
+/* line 1400, backend.scss */
+.form label {
+  color: #979797;
+  margin-bottom: 8px;
+}
+/* line 1403, backend.scss */
+.form label.parent_label {
+  color: #000000;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 40px;
+  margin-left: 15px;
+  width: 100%;
+}
+/* line 1412, backend.scss */
+.form input[type="text"], .form select, .form textarea {
+  border-radius: 0;
+  height: 30px;
+}
+/* line 1417, backend.scss */
+.form #Parameters input[type="text"], .form #Parameters select, .form #Parameters textarea {
+  width: 220px;
+  display: initial;
+}
+/* line 1422, backend.scss */
+.form #Parameters label.child_label {
+  width: 230px;
+  text-align: right;
+  margin-right: 14px;
+}
+/* line 1428, backend.scss */
+.form #Parameters .form-group {
+  position: relative;
+}
+/* line 1431, backend.scss */
+.form #Parameters input[type="checkbox"] + label:not(.status) {
+  margin: 0;
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: -20px;
+  margin-left: -65px;
+}
+/* line 1440, backend.scss */
+.form .mar_t {
+  margin-top: 22px;
+}
+/* line 1442, backend.scss */
+.form .mar_t.price_ico {
+  padding-left: 0;
+}
+/* line 1445, backend.scss */
+.form .mar_t label {
+  margin-top: 8px;
+}
+/* line 1449, backend.scss */
+.form .title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 24px 0;
+}
+/* line 1454, backend.scss */
+.form .add_sale {
+  cursor: pointer;
+  color: #1242e3;
+  margin-bottom: 10px;
+}
+/* line 1459, backend.scss */
+.form .marker {
+  color: #979797;
+  cursor: pointer;
+}
+/* line 1462, backend.scss */
+.form .marker i {
+  font-size: 20px;
+  margin-right: 9px;
+}
+/* line 1466, backend.scss */
+.form .marker input[type="checkbox"] {
+  display: none;
+}
+/* line 1470, backend.scss */
+.form .marker:hover, .form .marker:focus, .form .marker.active {
+  color: #000000;
+}
+/* line 1474, backend.scss */
+.form .seo textarea {
+  resize: none;
+  height: 100px;
+}
+/* line 1479, backend.scss */
+.form .sale.sale_opt {
+  padding-bottom: 10px;
+}
+/* line 1480, backend.scss */
+.form .sale.sale_opt .item {
+  margin-bottom: 12px;
+}
+/* line 1488, backend.scss */
+.form .settings_price .sale #del_sale_form .icon-admin-delete {
+  top: 31px;
+  position: absolute;
+  left: 92%;
+}
+/* line 1496, backend.scss */
+.form .sale {
+  padding: 20px;
+  clear: both;
+  background: #e4e4e4;
+  margin-bottom: 20px;
+  border: 1px solid #dadada;
+  display: none;
+}
+/* line 1503, backend.scss */
+.form .sale .period {
+  width: 37%;
+}
+/* line 1505, backend.scss */
+.form .sale .period .from, .form .sale .period .to {
+  display: inline-block;
+  width: 85px;
+  padding: 5px;
+}
+/* line 1511, backend.scss */
+.form .sale .sale_price {
+  margin-top: 7px;
+  color: #1246d8;
+}
+/* line 1514, backend.scss */
+.form .sale .sale_price span {
+  color: #737373;
+}
+
+/* line 1522, backend.scss */
+#products-list .fa {
+  font-size: 18px;
+}
+/* line 1526, backend.scss */
+#products-list .price .fa, #products-list .price_sale .fa {
+  font-size: 14px;
+}
+
+/* line 1533, backend.scss */
+.form-structure .seo-title, .form .seo-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+/* line 1539, backend.scss */
+.integer, .count_container input {
+  text-align: right;
+}
+
+/* line 1544, backend.scss */
+#products-list .product_for_page, .orders-info .product_for_page {
+  float: right;
+  border: 1px solid #d1d1d1;
+  border-radius: 3px;
+  width: 50px;
+  height: 27px;
+  background: linear-gradient(to top, #e8e8e8, #ffffff);
+}
+/* line 1551, backend.scss */
+#products-list .product_for_page:hover, #products-list .product_for_page:focus, .orders-info .product_for_page:hover, .orders-info .product_for_page:focus {
+  background: linear-gradient(to top, #ffffff, #e8e8e8);
+  cursor: pointer;
+}
+
+/* line 1561, backend.scss */
+.orders-info .counter-orders .bootstrap-select button {
+  border: none;
+  padding-left: 7px;
+}
+/* line 1567, backend.scss */
+.orders-info .product_for_page {
+  border: 1px solid #d1d1d1;
+}
+/* line 1569, backend.scss */
+.orders-info .product_for_page a {
+  outline: none;
+}
+/* line 1573, backend.scss */
+.orders-info .pag-cont {
+  text-align: right;
+}
+/* line 1575, backend.scss */
+.orders-info .pag-cont select {
+  outline: none;
+}
+
+/* line 1583, backend.scss */
+#products-list.catalog .img-cont {
+  margin-left: 25px;
+}
+/* line 1585, backend.scss */
+#products-list.catalog .img-cont img {
+  border: none;
+}
+/* line 1589, backend.scss */
+#products-list.catalog .btn-small.btn-active {
+  margin-right: 15px;
+}
+/* line 1593, backend.scss */
+#products-list ul {
+  float: left;
+  width: 100%;
+}
+/* line 1597, backend.scss */
+#products-list .items {
+  margin-top: 25px;
+  float: left;
+  width: 100%;
+}
+/* line 1602, backend.scss */
+#products-list .one_item {
+  min-height: 75px;
+  margin-bottom: 12px;
+  font-family: Arial;
+  font-size: 14px;
+  color: #000000;
+  float: left;
+  width: 100%;
+  cursor: pointer;
+  list-style: none;
+}
+/* line 1612, backend.scss */
+#products-list .one_item:hover {
+  background: #e4e4e4;
+}
+/* line 1615, backend.scss */
+#products-list .one_item .checkbox {
+  width: 15px;
+  height: 15px;
+  margin: 27px 20px 0;
+  float: left;
+}
+/* line 1621, backend.scss */
+#products-list .one_item .date {
+  color: #737373;
+  font-size: 12px;
+  margin-left: 15px;
+  text-align: left;
+  margin-top: 27px;
+}
+/* line 1627, backend.scss */
+#products-list .one_item .date div {
+  margin-top: 5px;
+}
+/* line 1631, backend.scss */
+#products-list .one_item .status {
+  height: 75px;
+  border-left: 4px solid transparent;
+}
+/* line 1634, backend.scss */
+#products-list .one_item .status.active {
+  border-left: 4px solid green;
+}
+/* line 1637, backend.scss */
+#products-list .one_item .status.not_active {
+  border-left: 4px solid red;
+}
+/* line 1640, backend.scss */
+#products-list .one_item .status div.identity {
+  margin-left: 15px;
+  margin-top: -35px;
+}
+/* line 1645, backend.scss */
+#products-list .one_item .name {
+  padding-left: 30px;
+  margin-top: 10px;
+}
+/* line 1648, backend.scss */
+#products-list .one_item .name a {
+  display: inline-block;
+  min-height: 34px;
+  max-height: 36px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 18px;
+}
+/* line 1655, backend.scss */
+#products-list .one_item .name a:hover {
+  color: #1246d8;
+  text-decoration: none;
+}
+/* line 1662, backend.scss */
+#products-list .one_item .article span {
+  background: #0849e1;
+  font-size: 10px;
+  color: #ffffff;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin-right: 4px;
+}
+/* line 1671, backend.scss */
+#products-list .one_item div.price {
+  color: #1b49e3;
+  margin-top: 11px;
+}
+/* line 1674, backend.scss */
+#products-list .one_item div.price span {
+  color: #666666;
+}
+/* line 1678, backend.scss */
+#products-list .one_item div.deals {
+  margin-top: 7px;
+  width: 5%;
+}
+/* line 1682, backend.scss */
+#products-list .one_item div.price_sale {
+  margin-top: 11px;
+  padding-top: 12px;
+  border-top: 1px dashed #666666;
+  color: #979797;
+  text-decoration: line-through;
+}
+/* line 1688, backend.scss */
+#products-list .one_item div.price_sale .fa {
+  font-size: 14px;
+}
+/* line 1695, backend.scss */
+#products-list .one_item img.sort {
+  float: right;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+/* line 1700, backend.scss */
+#products-list .one_item img.answer_ok {
+  float: right;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+/* line 1706, backend.scss */
+#products-list .title_parent {
+  font-family: Arial;
+  color: #000000;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+/* line 1716, backend.scss */
+.mar_product_list, #products-list .one_item .deals, #products-list .one_item .price_sale, #products-list .one_item .price, #products-list .one_item img {
+  margin-top: 13px;
+}
+
+/* line 1720, backend.scss */
+.fa.new {
+  color: #009f00;
+}
+
+/* line 1724, backend.scss */
+.fa.popular {
+  color: #ffcb2d;
+}
+
+/* line 1729, backend.scss */
+.settings_price div.title, .settings_price_opt div.title {
+  float: left;
+  margin-right: 20px;
+}
+/* line 1732, backend.scss */
+.settings_price div.title + .add_sale, .settings_price_opt div.title + .add_sale {
+  margin-top: 3px;
+}
+
+/* line 1738, backend.scss */
+#sale_value {
+  color: #fb6b00;
+}
+
+/* line 1742, backend.scss */
+.fa.sale_product {
+  color: #ff2d2d;
+}
+
+/* line 1746, backend.scss */
+.btn-group.checkbox > .btn {
+  border-radius: 0;
+  border: 1px solid #dadada;
+  height: 25px;
+  outline: none;
+}
+
+/* line 1753, backend.scss */
+.btn-group.checkbox > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  background: url("/images/checkbox.png") no-repeat center 4px #ffffff;
+  width: 28px;
+  text-indent: -999999999px;
+}
+
+/* line 1759, backend.scss */
+.btn-group.checkbox > .btn.checked-single:first-child:not(:last-child):not(.dropdown-toggle) {
+  background: url("/images/checkbox.png") no-repeat center -22px #ffffff;
+  width: 28px;
+  text-indent: -999999999px;
+}
+
+/* line 1765, backend.scss */
+.btn-group.checkbox > .btn.checked-all:first-child:not(:last-child):not(.dropdown-toggle) {
+  background: url("/images/checkbox.png") no-repeat center -48px #ffffff;
+  width: 28px;
+  text-indent: -999999999px;
+}
+
+/* line 1771, backend.scss */
+.btn-group.checkbox > .btn + .dropdown-toggle {
+  background: -moz-linear-gradient(top, #e8e8e8, #ffffff);
+  background: -webkit-linear-gradient(top, #e8e8e8, #ffffff);
+  background: -o-linear-gradient(top, #e8e8e8, #ffffff);
+  background: -ms-linear-gradient(top, #e8e8e8, #ffffff);
+  background: linear-gradient(to top, #e8e8e8, #ffffff);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8e8e8', endColorstr='#ffffff', GradientType=0);
+  padding: 2px 3px 3px;
+}
+
+/* line 1781, backend.scss */
+.btn-group.checkbox .btn .caret {
+  border-top: 4px solid #000000;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* line 1789, backend.scss */
+.btn-group.checkbox.open .dropdown-toggle {
+  box-shadow: none;
+  padding: 2px 3px 3px;
+}
+
+/* line 1794, backend.scss */
+.btn-group.checkbox .btn.active,
+.btn-group.checkbox .btn:active,
+.btn-group.checkbox.open .dropdown-toggle,
+.btn-group.checkbox.open .dropdown-toggle:focus,
+.btn-group.checkbox.open .dropdown-toggle:active {
+  box-shadow: none;
+  background: #004cff;
+  padding: 2px 3px 3px !important;
+}
+
+/* line 1804, backend.scss */
+.btn-group.checkbox.open .btn .caret,
+.btn-group.checkbox .btn:active .caret,
+.btn-group.checkbox.open .btn .caret {
+  border-top: 4px solid #ffffff;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+/* line 1812, backend.scss */
+input[type="checkbox"] {
+  display: none;
+}
+
+/* line 1816, backend.scss */
+input[type="checkbox"] + label:not(.status) {
+  /*font: 18px bold;*/
+  color: #444;
+  cursor: pointer;
+  margin: 27px 16px 0;
+}
+
+/* line 1824, backend.scss */
+input[type="checkbox"] + label:not(.status)::before {
+  content: "";
+  display: inline-table;
+  vertical-align: middle;
+  height: 16px;
+  width: 16px;
+  margin: -2px 5px 0 0;
+  background: url("/images/checkbox.png") no-repeat transparent;
+}
+
+/* line 1835, backend.scss */
+label.unit {
+  color: #979797;
+  margin-left: 10px;
+  position: absolute;
+  top: 7px;
+  left: 72%;
+}
+
+/* line 1843, backend.scss */
+#sale_type {
+  padding-left: 7px;
+}
+
+/* line 1847, backend.scss */
+input[type="checkbox"] + label:not(.status)::before {
+  background-position: 0px 0px;
+}
+
+/* line 1851, backend.scss */
+input[type="checkbox"]:checked + label:not(.status)::before {
+  background-position: 0px -52px;
+}
+
+/* line 1855, backend.scss */
+input[type="checkbox"]:checked:disabled + label:not(.status)::before {
+  /*background-position: 0px -26px;*/
+  opacity: 0.5;
+}
+
+/* line 1862, backend.scss */
+#modal_delete .modal-header .close, #modal_not_active .modal-header .close, #modal_active .modal-header .close, #modal_new .modal-header .close, #modal_archive .modal-header .close, #modal_answer .modal-header .close, #modal_moderate .modal-header .close {
+  opacity: 1;
+}
+/* line 1865, backend.scss */
+#modal_delete .modal-header h3, #modal_not_active .modal-header h3, #modal_active .modal-header h3, #modal_new .modal-header h3, #modal_archive .modal-header h3, #modal_answer .modal-header h3, #modal_moderate .modal-header h3 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+}
+/* line 1873, backend.scss */
+#modal_delete .modal-body, #modal_not_active .modal-body, #modal_active .modal-body, #modal_new .modal-body, #modal_archive .modal-body, #modal_answer .modal-body, #modal_moderate .modal-body {
+  text-align: center;
+  color: #000000;
+}
+/* line 1878, backend.scss */
+#modal_delete .modal-footer button, #modal_not_active .modal-footer button, #modal_active .modal-footer button, #modal_new .modal-footer button, #modal_archive .modal-footer button, #modal_answer .modal-footer button, #modal_moderate .modal-footer button {
+  margin: 0 10px;
+}
+/* line 1880, backend.scss */
+#modal_delete .modal-footer button:last-child, #modal_not_active .modal-footer button:last-child, #modal_active .modal-footer button:last-child, #modal_new .modal-footer button:last-child, #modal_archive .modal-footer button:last-child, #modal_answer .modal-footer button:last-child, #modal_moderate .modal-footer button:last-child {
+  background: none;
+  border: none;
+  border-radius: none;
+  font-size: 14px;
+  color: #CCC;
+  text-decoration: underline;
+}
+
+/* line 1892, backend.scss */
+.buttons_group {
+  float: left;
+}
+/* line 1894, backend.scss */
+.buttons_group .btn-group {
+  margin: 0px 15px 10px 10px;
+  float: left;
+}
+/* line 1899, backend.scss */
+.buttons_group .btn-small:hover, .buttons_group .btn-small:focus {
+  background: #3c60e4;
+}
+/* line 1903, backend.scss */
+.buttons_group .btn-action {
+  width: 38px;
+  height: 25px;
+  background-image: linear-gradient(to top, #e8e8e8, #ffffff);
+  padding: 0px;
+  margin-right: 15px;
+  border: 1px solid #dcdcdc;
+  float: left;
+}
+/* line 1911, backend.scss */
+.buttons_group .btn-action:hover, .buttons_group .btn-action:focus {
+  background: #2853e4;
+}
+
+/* line 1917, backend.scss */
+#ui-datepicker-div {
+  z-index: 2 !important;
+}
+
+/* line 1921, backend.scss */
+.title_news {
+  margin-bottom: 30px;
+  float: left;
+  font-size: 18px;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+}
+/* line 1927, backend.scss */
+.title_news h2 {
+  font-size: 18px;
+  font-weight: bold;
+  float: left;
+}
+
+/* line 1934, backend.scss */
+.head_labels {
+  color: #979797;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+/* line 1941, backend.scss */
+#catalog-params-form-form h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+/* line 1946, backend.scss */
+#catalog-params-form-form .params_title.form-control {
+  width: 220px;
+}
+/* line 1949, backend.scss */
+#catalog-params-form-form .add-sub-form-child {
+  margin-left: 15px;
+}
+/* line 1952, backend.scss */
+#catalog-params-form-form .add-sub-form {
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-top: 15px;
+}
+/* line 1959, backend.scss */
+#catalog-params-form-form .head_labels label:nth-child(1) {
+  margin-right: 182px;
+}
+/* line 1962, backend.scss */
+#catalog-params-form-form .head_labels label:nth-child(2) {
+  margin-right: 109px;
+}
+/* line 1968, backend.scss */
+#catalog-params-form-form .head_param span {
+  color: #979797;
+  font-size: 12px;
+  display: inline-block;
+}
+/* line 1972, backend.scss */
+#catalog-params-form-form .head_param span:first-child {
+  width: 250px;
+}
+/* line 1975, backend.scss */
+#catalog-params-form-form .head_param span:nth-child(2) {
+  width: 120px;
+}
+/* line 1980, backend.scss */
+#catalog-params-form-form .add-sub-form-child, #catalog-params-form-form .add-sub-form {
+  color: #1242e3;
+}
+/* line 1983, backend.scss */
+#catalog-params-form-form .parent {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-top: 15px;
+}
+/* line 1988, backend.scss */
+#catalog-params-form-form .parent .del-form, #catalog-params-form-form .parent .del-value {
+  float: right;
+  margin-top: 7px;
+}
+/* line 1992, backend.scss */
+#catalog-params-form-form .parent .del-form {
+  margin-right: 31px;
+}
+/* line 1995, backend.scss */
+#catalog-params-form-form .parent .sort {
+  margin: 9px 0 0 20px;
+  cursor: pointer;
+}
+/* line 1999, backend.scss */
+#catalog-params-form-form .parent .child {
+  width: 100%;
+  margin: 25px 0 0;
+  display: inline-block;
+}
+/* line 2001, backend.scss */
+#catalog-params-form-form .parent .child .del-form {
+  margin-right: 0px;
+}
+/* line 2007, backend.scss */
+#catalog-params-form-form .parent .child .item {
+  float: left;
+  clear: both;
+  margin-bottom: 10px;
+  width: 100%;
+}
+/* line 2012, backend.scss */
+#catalog-params-form-form .parent .child .item input, #catalog-params-form-form .parent .child .item select {
+  margin-right: 15px;
+}
+/* line 2015, backend.scss */
+#catalog-params-form-form .parent .child .item select {
+  width: 99px;
+  padding-left: 3px;
+}
+/* line 2019, backend.scss */
+#catalog-params-form-form .parent .child .item input {
+  padding-left: 9px;
+}
+/* line 2022, backend.scss */
+#catalog-params-form-form .parent .child .item:before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #0849e1;
+  float: left;
+  margin: 14px 8px 0 0;
+}
+/* line 2031, backend.scss */
+#catalog-params-form-form .parent .child .item .values {
+  float: left;
+  clear: both;
+  width: 100%;
+}
+/* line 2035, backend.scss */
+#catalog-params-form-form .parent .child .item .values .add-value {
+  color: #1242e3;
+  float: left;
+  margin-left: 240px;
+  margin-top: 10px;
+}
+/* line 2041, backend.scss */
+#catalog-params-form-form .parent .child .item .values .value {
+  float: right;
+  margin-top: 10px;
+  margin-right: 0px;
+}
+/* line 2047, backend.scss */
+#catalog-params-form-form .parent .child .item .values .item:before {
+  display: none;
+}
+/* line 2050, backend.scss */
+#catalog-params-form-form .parent .child .item .values .item .help-inline {
+  display: block;
+}
+/* line 2053, backend.scss */
+#catalog-params-form-form .parent .child .item .values .item input {
+  margin-right: 20px;
+}
+/* line 2058, backend.scss */
+#catalog-params-form-form .parent .child .item input[type="checkbox"] + label:not(.status)::before {
+  content: "";
+  display: inline-table;
+  vertical-align: middle;
+  height: 27px;
+  width: 40px;
+  margin: -2px 5px 0 0;
+  background: url("/images/checkbox_params.png") no-repeat transparent;
+}
+/* line 2067, backend.scss */
+#catalog-params-form-form .parent .child .item input[type="checkbox"] + label:not(.status)::before {
+  background-position: 0px -36px;
+}
+/* line 2071, backend.scss */
+#catalog-params-form-form .parent .child .item input[type="checkbox"]:checked + label:not(.status)::before {
+  background-position: 0px -0px;
+}
+/* line 2074, backend.scss */
+#catalog-params-form-form .parent .child .item input[type="checkbox"] + label:not(.status) {
+  margin: 0 0 0 35px;
+}
+
+/* line 2084, backend.scss */
+.tab-content img.sort {
+  margin-top: 10px;
+  margin-right: 5px;
+  float: right;
+}
+/* line 2089, backend.scss */
+.tab-content img.delete {
+  margin-top: 11px;
+  margin-right: 30px;
+  float: right;
+  cursor: pointer;
+}
+/* line 2095, backend.scss */
+.tab-content span.add_param {
+  color: #1242e3;
+  cursor: pointer;
+  float: left;
+}
+/* line 2099, backend.scss */
+.tab-content span.add_param:hover, .tab-content span.add_param:focus {
+  text-decoration: underline;
+}
+
+/* line 2106, backend.scss */
+.sort_params {
+  float: left;
+  width: 100%;
+  margin-top: -30px;
+}
+
+/* line 2114, backend.scss */
+#products-list .feedback.one_item .date {
+  font-size: 12px;
+  color: #979797;
+}
+/* line 2121, backend.scss */
+#products-list .one_item .img-cont img {
+  margin-top: 12px;
+}
+
+/* line 2128, backend.scss */
+.main-title-block.module-title img {
+  width: 50px;
+}
+
+/* line 2132, backend.scss */
+.feedback_system {
+  font-size: 12px;
+  color: #979797;
+  margin-bottom: 6px;
+}
+/* line 2136, backend.scss */
+.feedback_system:before {
+  content: url("/images/feedback_user.png");
+  margin-right: 5px;
+}
+/* line 2140, backend.scss */
+.feedback_system:first-child {
+  margin-bottom: 15px;
+}
+/* line 2144, backend.scss */
+.feedback_system:nth-child(2):before {
+  content: url("/images/feedback_phone.png");
+}
+/* line 2149, backend.scss */
+.feedback_system:nth-child(3):before {
+  content: url("/images/feedback_email.png");
+}
+
+/* line 2156, backend.scss */
+.buttons_group .spisok {
+  float: left;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+/* line 2165, backend.scss */
+#catalog-products-product-form .btn-small.btn-trash {
+  margin-right: 0;
+  padding: 2px 10.5px;
+  float: right;
+}
+/* line 2170, backend.scss */
+#catalog-products-product-form .btn-small.btn-active {
+  position: absolute;
+  left: 100%;
+  margin-left: -135px;
+}
+/* line 2175, backend.scss */
+#catalog-products-product-form .theme, #catalog-products-product-form .ask {
+  border: 1px solid #CCC;
+  padding: 10px 15px 30px;
+  margin-bottom: 40px;
+}
+/* line 2180, backend.scss */
+#catalog-products-product-form .ask {
+  margin-bottom: 80px;
+}
+/* line 2184, backend.scss */
+#catalog-products-product-form #Description .seo-title {
+  margin-bottom: 0;
+}
+
+/* line 2190, backend.scss */
+input#AskAnswer_answer_ok + label {
+  margin-top: 0;
+}
+
+/* line 2197, backend.scss */
+#menu-_menu-form .head_labels label:nth-child(1) {
+  margin-right: 149px;
+}
+/* line 2200, backend.scss */
+#menu-_menu-form .head_labels label:nth-child(2) {
+  margin-right: 67px;
+}
+/* line 2205, backend.scss */
+#menu-_menu-form .circle {
+  float: left;
+  margin-right: 0 !important;
+}
+/* line 2208, backend.scss */
+#menu-_menu-form .circle:before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #0849e1;
+  float: left;
+  margin: 14px 15px 0 0;
+}
+/* line 2227, backend.scss */
+#menu-_menu-form .children .items {
+  clear: both;
+  margin: 20px 0 10px 16px;
+  float: left;
+  width: 100%;
+}
+/* line 2234, backend.scss */
+#menu-_menu-form .add-children {
+  color: #1242e3;
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  background-image: linear-gradient(to top, #e8e8e8, #ffffff);
+  padding: 0px;
+  margin-right: 15px;
+  border: 1px solid #dcdcdc;
+}
+/* line 2243, backend.scss */
+#menu-_menu-form .add-children:hover {
+  background: #2853e4;
+}
+/* line 2246, backend.scss */
+#menu-_menu-form .add-children.last {
+  background: none;
+  width: 200px;
+  height: auto;
+  border: none;
+  margin: -15px 0 20px;
+  color: #1242e3;
+  display: block;
+}
+/* line 2259, backend.scss */
+#menu-_menu-form .del-form {
+  float: right;
+  margin: 7px 20px 0 15px;
+}
+/* line 2264, backend.scss */
+#menu-_menu-form .one_item div {
+  margin-right: 20px;
+  float: left;
+}
+
+/* line 2271, backend.scss */
+.module-title {
+  position: relative;
+  z-index: 1;
+}
+/* line 2274, backend.scss */
+.module-title .add-children {
+  color: #1242e3;
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  background-image: linear-gradient(to top, #e8e8e8, #ffffff);
+  padding: 0px;
+  margin-right: 10px;
+  border: 1px solid #dcdcdc;
+}
+/* line 2283, backend.scss */
+.module-title .add-children:hover {
+  background: #2853e4;
+}
+
+/* line 2291, backend.scss */
+.module-title #products-list .one_item {
+  float: right;
+  width: 925px;
+  margin-top: -25px;
+  margin-bottom: 0;
+  height: 75px;
+  overflow: hidden;
+}
+/* line 2298, backend.scss */
+.module-title #products-list .one_item:hover, .module-title #products-list .one_item:focus {
+  background: none;
+}
+/* line 2301, backend.scss */
+.module-title #products-list .one_item .fa.fa-trash-o {
+  font-size: 18px;
+  margin: 0;
+}
+/* line 2305, backend.scss */
+.module-title #products-list .one_item .btn-small.btn-active {
+  margin-left: 10px;
+}
+/* line 2308, backend.scss */
+.module-title #products-list .one_item .btn-small.btn-trash {
+  margin-left: 20px;
+}
+/* line 2311, backend.scss */
+.module-title #products-list .one_item .btn-small.btn-active, .module-title #products-list .one_item .btn-small.btn-trash {
+  margin-top: 25px;
+}
+/* line 2314, backend.scss */
+.module-title #products-list .one_item .fa {
+  margin-bottom: 3px;
+}
+
+/* line 2321, backend.scss */
+#modal_releated {
+  z-index: 1000;
+  width: 100%;
+  top: 0px;
+}
+/* line 2325, backend.scss */
+#modal_releated .pagination {
+  float: left;
+}
+/* line 2328, backend.scss */
+#modal_releated a.title {
+  font-weight: normal;
+}
+/* line 2331, backend.scss */
+#modal_releated .idint, #modal_releated .count_products {
+  float: left;
+  font-size: 12px;
+  color: #979797 !important;
+}
+/* line 2336, backend.scss */
+#modal_releated .count_products {
+  float: right;
+}
+/* line 2339, backend.scss */
+#modal_releated .form-group.buttons {
+  display: none;
+}
+/* line 2342, backend.scss */
+#modal_releated .buttons_group {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+/* line 2347, backend.scss */
+#modal_releated .products {
+  position: relative;
+}
+/* line 2352, backend.scss */
+#modal_releated .modal-dialog {
+  width: 100%;
+  margin: 0;
+  min-height: 100%;
+  height: 100%;
+}
+/* line 2357, backend.scss */
+#modal_releated .modal-dialog .modal-content {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  min-height: 100%;
+  height: 100%;
+}
+/* line 2363, backend.scss */
+#modal_releated .modal-dialog .modal-content .modal-header {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 980px !important;
+  font-size: 18px;
+  color: black;
+  height: 8%;
+}
+/* line 2370, backend.scss */
+#modal_releated .modal-dialog .modal-content .modal-header .close {
+  opacity: 1;
+}
+/* line 2374, backend.scss */
+#modal_releated .modal-dialog .modal-content .modal-footer {
+  display: none;
+}
+/* line 2378, backend.scss */
+#modal_releated .modal-dialog #modal_tree {
+  width: 30%;
+  float: left;
+}
+/* line 2381, backend.scss */
+#modal_releated .modal-dialog #modal_tree > li:first-child {
+  padding-bottom: 10px;
+}
+/* line 2384, backend.scss */
+#modal_releated .modal-dialog #modal_tree a {
+  font-size: 12px;
+}
+/* line 2386, backend.scss */
+#modal_releated .modal-dialog #modal_tree a:hover, #modal_releated .modal-dialog #modal_tree a:focus {
+  color: #004cff;
+  text-decoration: none;
+}
+/* line 2391, backend.scss */
+#modal_releated .modal-dialog #modal_tree .modal_first {
+  vertical-align: -5px;
+  min-width: 1px;
+  display: inline-block;
+}
+/* line 2396, backend.scss */
+#modal_releated .modal-dialog #modal_tree li.collapsable a.title, #modal_releated .modal-dialog #modal_tree li.expandable a.title, #modal_releated .modal-dialog #modal_tree li.closed a.title, #modal_releated .modal-dialog #modal_tree li.last a.title {
+  white-space: nowrap;
+  position: relative;
+  margin-left: 34px;
+  margin-top: -30px;
+  margin-bottom: 0;
+  display: block;
+}
+/* line 2403, backend.scss */
+#modal_releated .modal-dialog #modal_tree li.collapsable a.title::after, #modal_releated .modal-dialog #modal_tree li.expandable a.title::after, #modal_releated .modal-dialog #modal_tree li.closed a.title::after, #modal_releated .modal-dialog #modal_tree li.last a.title::after {
+  content: '';
+  text-align: center;
+  margin-top: 1.5px;
+  position: absolute;
+  right: -26px;
+  top: 0;
+  padding-left: 10px;
+  width: 70px;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.2), #ffffff 40%);
+}
+/* line 2418, backend.scss */
+#modal_releated .modal-body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 980px !important;
+  height: 92%;
+  width: 100%;
+}
+/* line 2425, backend.scss */
+#modal_releated .products {
+  float: left;
+  width: 70%;
+  padding-right: 25px;
+  height: 85%;
+}
+/* line 2430, backend.scss */
+#modal_releated .products #products-list {
+  height: 100%;
+}
+/* line 2433, backend.scss */
+#modal_releated .products .items {
+  overflow-y: auto;
+  height: calc(100% - 100px);
+  overflow-x: hidden;
+  padding-top: 5px;
+}
+/* line 2441, backend.scss */
+#modal_releated .pagination {
+  margin-top: 15px;
+}
+
+/* line 2447, backend.scss */
+#modal_tree {
+  overflow: hidden;
+}
+/* line 2449, backend.scss */
+#modal_tree .modal_first {
+  min-width: 1px;
+  min-height: 1px;
+  display: inline-block;
+}
+
+/* line 2461, backend.scss */
+#modal_review {
+  z-index: 1000;
+  width: 100%;
+  top: 0px;
+}
+/* line 2465, backend.scss */
+#modal_review .modal-dialog {
+  width: 100%;
+  margin: 0;
+  min-height: 100%;
+  height: 100%;
+}
+/* line 2470, backend.scss */
+#modal_review .modal-dialog .modal-content {
+  border-radius: 0;
+  min-height: 100%;
+  height: 100%;
+}
+/* line 2474, backend.scss */
+#modal_review .modal-dialog .modal-content .modal-header {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 980px !important;
+  font-size: 18px;
+  color: black;
+  height: 8%;
+}
+/* line 2481, backend.scss */
+#modal_review .modal-dialog .modal-content .modal-header h3 {
+  padding-top: 10px;
+  font-family: Arial;
+  font-weight: bold;
+}
+/* line 2486, backend.scss */
+#modal_review .modal-dialog .modal-content .modal-header button {
+  opacity: 1;
+}
+
+/* line 2495, backend.scss */
+#product_review_container .buttons_group {
+  margin-left: 15px;
+}
+/* line 2500, backend.scss */
+#product_review_container #products-list .one_item .name {
+  height: 57px;
+  overflow: hidden;
+}
+/* line 2503, backend.scss */
+#product_review_container #products-list .one_item .name:hover {
+  color: #0849e1;
+  text-decoration: none;
+}
+
+/* line 2514, backend.scss */
+#main-left-tree-menu li a.active, #modal_tree li a.active {
+  color: #1246d8;
+}
+/* line 2517, backend.scss */
+#main-left-tree-menu li a.status2, #modal_tree li a.status2 {
+  color: #B94A48;
+}
+/* line 2520, backend.scss */
+#main-left-tree-menu li a i, #modal_tree li a i {
+  word-spacing: normal;
+  color: #424242;
+  font-size: 12px;
+  font-style: normal;
+  position: absolute;
+  margin-left: -22px;
+  margin-top: 1px;
+}
+/* line 2528, backend.scss */
+#main-left-tree-menu li a i.glyphicon-remove-circle, #main-left-tree-menu li a i.glyphicon-plus-sign, #modal_tree li a i.glyphicon-remove-circle, #modal_tree li a i.glyphicon-plus-sign {
+  position: static;
+  margin-left: 0px;
+}
+
+/* line 2537, backend.scss */
+#catalog_search_form .form-group {
+  margin-top: -20px;
+}
+/* line 2540, backend.scss */
+#catalog_search_form label {
+  font-size: 12px;
+  margin-bottom: 2px;
+  color: #999999;
+}
+/* line 2545, backend.scss */
+#catalog_search_form input {
+  padding-right: 25px;
+}
+/* line 2548, backend.scss */
+#catalog_search_form a {
+  margin-top: -23px;
+  margin-right: 6px;
+}
+
+/* line 2554, backend.scss */
+button.save {
+  background: #17c917;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+}
+/* line 2559, backend.scss */
+button.save:hover, button.save:focus {
+  background: #17c917;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* line 2569, backend.scss */
+#Products_releated .one_item .col-xs-1 img {
+  margin-top: 12px;
+}
+/* line 2574, backend.scss */
+#Products_releated .releated_products {
+  margin: 35px 0;
+  float: right;
+}
+/* line 2578, backend.scss */
+#Products_releated .icon-admin-delete {
+  margin-left: 20px;
+  float: right;
+  margin-top: 35px;
+}
+/* line 2583, backend.scss */
+#Products_releated #products-list .one_item img.sort {
+  margin-top: 34px;
+}
+
+/* line 2588, backend.scss */
+.fa.fa-byr:before {
+  content: "Bn";
+}
+
+/* line 2592, backend.scss */
+.fa.fa-uah:before {
+  content: "\20B4";
+}
+
+/* line 2596, backend.scss */
+.settings-label {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+/* line 2599, backend.scss */
+.settings-label input[type="checkbox"] + label:not(.status) {
+  position: absolute;
+  margin-top: 17px;
+}
+/* line 2603, backend.scss */
+.settings-label input[type="checkbox"]:checked + label::before {
+  background-position: 0px -52px;
+}
+/* line 2606, backend.scss */
+.settings-label img {
+  max-width: 48px;
+  max-height: 48px;
+  background-color: #efefef;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-left: 55px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.44);
+}
+/* line 2615, backend.scss */
+.settings-label span {
+  vertical-align: 18px;
+  color: #0849e1;
+  font-size: 16px;
+  font-family: 'Arial';
+  font-weight: bold;
+}
+/* line 2623, backend.scss */
+.settings-label.disabled span {
+  color: #979797;
+}
+/* line 2626, backend.scss */
+.settings-label.disabled img {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: url(grayscale.svg#greyscale);
+  /* Firefox 4+ */
+  filter: gray;
+  /* IE 6-9 */
+}
+
+/* line 2639, backend.scss */
+#currency-form .col-xs-1.text-center {
+  margin-top: 10px;
+}
+/* line 2642, backend.scss */
+#currency-form .col-xs-2.text-right {
+  padding-top: 10px;
+}
+/* line 2645, backend.scss */
+#currency-form .one_item {
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+/* line 2648, backend.scss */
+#currency-form .one_item > div {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 2652, backend.scss */
+#currency-form .one_item:hover {
+  background: #e4e4e4;
+}
+/* line 2655, backend.scss */
+#currency-form .one_item input[type="text"], #currency-form .one_item select {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border: 1px solid #CCC;
+}
+/* line 2661, backend.scss */
+#currency-form .one_item select {
+  width: 90px;
+  margin: 0 0 0 20px;
+}
+/* line 2665, backend.scss */
+#currency-form .one_item .status {
+  height: 40px;
+  padding-top: 2px;
+}
+/* line 2668, backend.scss */
+#currency-form .one_item .status.active {
+  border-left: 4px solid green;
+}
+/* line 2671, backend.scss */
+#currency-form .one_item .status.not_active {
+  border-left: 4px solid red;
+}
+/* line 2675, backend.scss */
+#currency-form .one_item .icon {
+  margin-top: 2px;
+  border: 1px solid #CCC;
+  height: 34px;
+  width: 60px;
+  padding: 8px 0 0 20px;
+}
+/* line 2682, backend.scss */
+#currency-form .one_item .one {
+  border: 1px solid #CCC;
+  height: 34px;
+  width: 60px;
+  float: left;
+  padding: 9px 0 0 24px;
+}
+/* line 2689, backend.scss */
+#currency-form .one_item label[for="one"] {
+  margin: 9px 12px 0;
+  float: left;
+}
+/* line 2693, backend.scss */
+#currency-form .one_item .course {
+  float: left;
+  width: 120px;
+}
+/* line 2696, backend.scss */
+#currency-form .one_item .course p {
+  color: #0849e1;
+  margin-top: 9px;
+}
+/* line 2701, backend.scss */
+#currency-form .one_item .kind {
+  color: #CCC;
+  margin-top: 7px;
+}
+/* line 2705, backend.scss */
+#currency-form .one_item .btn-small {
+  padding: 0;
+  width: 38px;
+  height: 25px;
+}
+/* line 2709, backend.scss */
+#currency-form .one_item .btn-small:hover {
+  background: #2853e4;
+  color: white;
+}
+/* line 2716, backend.scss */
+#currency-form .one_item .dropdown a:hover {
+  background: #2853e4;
+  color: white;
+}
+/* line 2723, backend.scss */
+#currency-form .labels {
+  color: #CCC;
+  margin-bottom: 10px;
+}
+
+/*
+  ==============================
+
+        USERS
+
+  ==============================
+*/
+/* line 2737, backend.scss */
+h2.title {
+  font-size: 18px;
+  color: #000;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  float: left;
+  margin-top: 8px;
+}
+/* line 2744, backend.scss */
+h2.title a {
+  font-size: 12px;
+  font-weight: normal;
+  color: #004cff;
+  text-decoration: none;
+  margin-left: 5px;
+}
+/* line 2750, backend.scss */
+h2.title a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 2759, backend.scss */
+.settings-registration #users-registration label {
+  margin-top: 7px;
+}
+/* line 2762, backend.scss */
+.settings-registration #users-registration #Users_password {
+  width: 100%;
+}
+/* line 2766, backend.scss */
+.settings-registration #users-registration .buttons #reg_btn {
+  margin-left: 5px;
+  margin-right: 15px;
+}
+/* line 2772, backend.scss */
+.settings-registration .lk_cat {
+  font-size: 18px;
+  font-family: arial, sans-serif;
+}
+
+/* line 2778, backend.scss */
+a#all_products, a#add_user {
+  font-size: 12px;
+  color: #004cff;
+  text-decoration: none;
+}
+/* line 2782, backend.scss */
+a#all_products:hover, a#add_user:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 2788, backend.scss */
+a#all_products {
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 7px;
+  display: inline-block;
+}
+
+/* line 2795, backend.scss */
+a#add_user {
+  float: right;
+  margin-top: 12px;
+  margin-right: 55px;
+}
+
+/* line 2801, backend.scss */
+#changePsw {
+  background: url("/images/icon-admin/changePsw.png") no-repeat;
+  width: 42px;
+  height: 28px;
+  margin-top: 2px;
+  margin-left: 12px;
+}
+
+/* line 2811, backend.scss */
+.basic_settings #settings-index-form .qq-upload-success {
+  display: none;
+}
+/* line 2814, backend.scss */
+.basic_settings #settings-index-form .qq-upload-drop-area {
+  width: 138px;
+  height: 138px;
+}
+/* line 2818, backend.scss */
+.basic_settings #settings-index-form label {
+  text-align: right;
+  width: 100%;
+  height: 19px;
+  margin-top: 7px;
+}
+/* line 2824, backend.scss */
+.basic_settings #settings-index-form .form-group.image {
+  margin-top: 0;
+}
+/* line 2827, backend.scss */
+.basic_settings #settings-index-form .film {
+  text-align: right;
+  opacity: 0;
+  width: 139px;
+  float: right;
+  height: 138px;
+  margin-top: -139px;
+  position: absolute;
+  z-index: 100;
+}
+/* line 2836, backend.scss */
+.basic_settings #settings-index-form .film p {
+  height: 138px;
+  width: 139px;
+  text-align: center;
+}
+/* line 2841, backend.scss */
+.basic_settings #settings-index-form .film:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  opacity: 1;
+}
+/* line 2846, backend.scss */
+.basic_settings #settings-index-form .close-img.fa-close {
+  position: absolute;
+  top: 0;
+  left: 128px;
+  z-index: 9999;
+  cursor: pointer;
+  margin-top: 1px;
+}
+/* line 2854, backend.scss */
+.basic_settings #settings-index-form span.required {
+  margin-top: 0;
+}
+/* line 2857, backend.scss */
+.basic_settings #settings-index-form .qq-upload-drop-area span {
+  position: static;
+  margin-top: 20px;
+}
+/* line 2861, backend.scss */
+.basic_settings #settings-index-form #avatar {
+  width: 138px;
+  height: 138px;
+  z-index: 9000;
+}
+/* line 2865, backend.scss */
+.basic_settings #settings-index-form #avatar:hover {
+  opacity: 0.2;
+}
+/* line 2869, backend.scss */
+.basic_settings #settings-index-form #load_from_disk {
+  width: 90px;
+  margin-top: 15px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  margin-right: 0px;
+  margin-left: 4px;
+}
+/* line 2876, backend.scss */
+.basic_settings #settings-index-form #load_from_disk input {
+  cursor: pointer;
+}
+/* line 2880, backend.scss */
+.basic_settings #settings-index-form h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+}
+
+/* line 2895, backend.scss */
+.main-title-block.module-title .one_item.users .img-cont.col-xs-1 {
+  margin-left: 0;
+  margin-top: 0;
+  background-color: transparent;
+  border: none;
+}
+/* line 2903, backend.scss */
+.main-title-block.module-title #user_item_setting .table-img {
+  margin-top: -18px;
+}
+/* line 2905, backend.scss */
+.main-title-block.module-title #user_item_setting .table-img img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: 10px;
+  border: none;
+}
+/* line 2915, backend.scss */
+.main-title-block.module-title #user_item_setting img {
+  float: none;
+  vertical-align: middle;
+  margin-top: -5px;
+  margin-right: 3px;
+  margin-left: -2px;
+}
+/* line 2922, backend.scss */
+.main-title-block.module-title #user_item_setting .number-user {
+  margin-left: 65px;
+}
+/* line 2927, backend.scss */
+.main-title-block.module-title .user img, .main-title-block.module-title .mail img, .main-title-block.module-title .phone img {
+  width: auto;
+  border: none;
+  background: transparent;
+}
+
+/* line 2936, backend.scss */
+.add-children.btn.btn-action.btn-add-menu:hover {
+  background-image: linear-gradient(to top, #1849e4, #4265e4);
+}
+
+/* line 2942, backend.scss */
+#products-list .fa-angle-left:before, #products-list .fa-angle-right:before, .user_list .fa-angle-left:before, .user_list .fa-angle-right:before {
+  vertical-align: -3px;
+  position: relative;
+  left: 9px;
+}
+/* line 2947, backend.scss */
+#products-list .pag-cont, .user_list .pag-cont {
+  margin-left: -225px;
+  position: absolute;
+  left: 100%;
+  width: 110px;
+}
+/* line 2954, backend.scss */
+#products-list .pag-cont ul.pagination li a, .user_list .pag-cont ul.pagination li a {
+  width: 26px;
+  height: 27px;
+  padding: 0;
+}
+/* line 2962, backend.scss */
+#products-list .pag-cont.news .pagination, .user_list .pag-cont.news .pagination {
+  margin-top: 0;
+}
+/* line 2965, backend.scss */
+#products-list .pag-cont.news .fa-angle-left:before, #products-list .pag-cont.news .fa-angle-right:before, .user_list .pag-cont.news .fa-angle-left:before, .user_list .pag-cont.news .fa-angle-right:before {
+  left: 9px;
+  vertical-align: -4px;
+}
+/* line 2970, backend.scss */
+#products-list .pag-cont .dropdown.dropdown-select, .user_list .pag-cont .dropdown.dropdown-select {
+  display: inline-block;
+  padding-left: 0;
+  float: right;
+  margin: 7px 0 20px 46px;
+  border-radius: 4px;
+}
+/* line 2976, backend.scss */
+#products-list .pag-cont .dropdown.dropdown-select .btn, .user_list .pag-cont .dropdown.dropdown-select .btn {
+  font-size: 12px;
+  width: 38px;
+  height: 25px;
+  padding: 0;
+  padding-top: 1px;
+}
+/* line 2984, backend.scss */
+#products-list .pag-cont .pagination, .user_list .pag-cont .pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 5px 0 20px;
+  border-radius: 4px;
+}
+/* line 2990, backend.scss */
+#products-list .pag-cont .pagination li a, .user_list .pag-cont .pagination li a {
+  padding: 4px 9px;
+  font-size: 14px;
+  color: #343434;
+}
+/* line 2994, backend.scss */
+#products-list .pag-cont .pagination li a:hover, .user_list .pag-cont .pagination li a:hover {
+  background-color: #004cff !important;
+  color: white !important;
+}
+/* line 3001, backend.scss */
+#products-list .pag-cont .pagination select, .user_list .pag-cont .pagination select {
+  border-right: none;
+  border-radius: 0px;
+  box-shadow: none;
+  display: inline-block;
+  width: 47px;
+  padding: 0;
+  float: left;
+  height: 27px;
+  margin-top: 0;
+  border: 1px solid #ddd;
+  border-left: none;
+  outline: none;
+  cursor: pointer;
+  padding-left: 7px;
+}
+/* line 3016, backend.scss */
+#products-list .pag-cont .pagination select:hover, #products-list .pag-cont .pagination select:focus, #products-list .pag-cont .pagination select:active, .user_list .pag-cont .pagination select:hover, .user_list .pag-cont .pagination select:focus, .user_list .pag-cont .pagination select:active {
+  outline: none;
+}
+
+/* line 3023, backend.scss */
+.user_list {
+  position: relative;
+  width: 950px;
+  margin-left: -15px;
+}
+/* line 3027, backend.scss */
+.user_list h2 {
+  margin-bottom: 30px;
+}
+/* line 3031, backend.scss */
+.user_list .fa-angle-left:before, .user_list .fa-angle-right:before {
+  vertical-align: -3px;
+  position: relative;
+  left: 9px;
+}
+/* line 3036, backend.scss */
+.user_list .product_for_page {
+  position: absolute;
+  margin-left: -50px;
+  margin-top: 7px;
+  left: 100%;
+  border: 1px solid #d1d1d1;
+  border-radius: 3px;
+  width: 50px;
+  height: 27px;
+  background: linear-gradient(to top, #e8e8e8, #ffffff);
+}
+/* line 3047, backend.scss */
+.user_list .form-control {
+  border-radius: none;
+}
+/* line 3050, backend.scss */
+.user_list .table {
+  font-size: 12px;
+  color: #999999;
+}
+/* line 3054, backend.scss */
+.user_list input[type="checkbox"] + label:not(.status) {
+  margin: 0;
+}
+/* line 3057, backend.scss */
+.user_list .checkbox label {
+  padding-left: 6px;
+}
+
+/* line 3065, backend.scss */
+#table-sotrudniki thead td:nth-child(1) {
+  padding-top: 2px;
+}
+/* line 3068, backend.scss */
+#table-sotrudniki thead td .checkbox {
+  margin-top: 0;
+}
+/* line 3073, backend.scss */
+#table-sotrudniki tbody {
+  cursor: pointer;
+}
+/* line 3075, backend.scss */
+#table-sotrudniki tbody a:hover, #table-sotrudniki tbody a:focus, #table-sotrudniki tbody a:active {
+  text-decoration: none;
+}
+/* line 3081, backend.scss */
+#table-sotrudniki tbody tr:hover {
+  background-color: #e4e4e4;
+}
+/* line 3085, backend.scss */
+#table-sotrudniki tbody td {
+  border: none;
+}
+/* line 3087, backend.scss */
+#table-sotrudniki tbody td .table-img {
+  margin-right: 9px;
+  float: left;
+}
+/* line 3090, backend.scss */
+#table-sotrudniki tbody td .table-img img {
+  width: 60px;
+  height: 60px;
+}
+/* line 3096, backend.scss */
+#table-sotrudniki tbody td .user img {
+  margin-right: 4px;
+  margin-left: 1px;
+}
+/* line 3102, backend.scss */
+#table-sotrudniki tbody td .mail img {
+  margin-right: 3px;
+}
+/* line 3107, backend.scss */
+#table-sotrudniki tbody td .phone img {
+  margin-right: 1px;
+  margin-left: 1px;
+}
+/* line 3112, backend.scss */
+#table-sotrudniki tbody td .number-user {
+  padding-left: 71px;
+}
+/* line 3117, backend.scss */
+#table-sotrudniki .btn-small.btn-active {
+  margin-left: 0;
+}
+
+/* line 3122, backend.scss */
+.dropdown.navbar-top-links {
+  width: 42px !important;
+}
+
+/* line 3126, backend.scss */
+.status-drop {
+  float: left;
+  width: 45px;
+  height: 30px;
+  background-position: 10% 60%;
+}
+
+/* line 3133, backend.scss */
+.active-sotr {
+  width: 45px;
+  height: 30px;
+  background: url("/images/icon-admin/active_sotrud.png") no-repeat;
+  background-position: 10% 60%;
+  margin-top: -9px;
+}
+
+/* line 3142, backend.scss */
+.img-cont img {
+  border: 1px solid #cfcfcf;
+  background-color: #fff;
+  margin-top: -13px;
+  margin-right: 14px;
+  padding: 0;
+}
+
+/* line 3151, backend.scss */
+.one_item.users {
+  margin-left: 15px;
+}
+/* line 3154, backend.scss */
+.one_item.users .img-cont img {
+  padding: 6px 9px;
+}
+/* line 3158, backend.scss */
+.one_item.users .form-group {
+  position: relative;
+  float: left;
+  margin-top: -3px;
+}
+/* line 3162, backend.scss */
+.one_item.users .form-group:nth-child(1), .one_item.users .form-group:nth-child(2) {
+  width: 180px;
+  margin-right: 23px;
+}
+/* line 3166, backend.scss */
+.one_item.users .form-group:nth-child(3), .one_item.users .form-group:nth-child(4) {
+  width: 100px;
+}
+/* line 3169, backend.scss */
+.one_item.users .form-group:nth-child(3) {
+  margin-right: 23px;
+}
+/* line 3172, backend.scss */
+.one_item.users .form-group label {
+  margin-top: -15px;
+  position: absolute;
+  font-size: 12px;
+  color: #999999;
+}
+/* line 3178, backend.scss */
+.one_item.users .form-group input, .one_item.users .form-group select {
+  height: 31px;
+  width: 100%;
+  outline: none;
+  border-radius: 0;
+  border: 1px solid #dadada;
+  padding-left: 5px;
+}
+/* line 3187, backend.scss */
+.one_item.users .glyphicon-search {
+  margin-top: -23px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+/* line 3192, backend.scss */
+.one_item.users .title {
+  margin-right: 20px;
+}
+
+/* line 3199, backend.scss */
+#profil_form .avatar .qq-upload-drop-area {
+  width: 140px;
+  height: 140px;
+  border: 1px solid transparent;
+}
+
+/* line 3208, backend.scss */
+.one-order .pay {
+  color: #999;
+  line-height: 16px;
+  padding-right: 0px;
+}
+/* line 3213, backend.scss */
+.one-order .user-info {
+  color: #999;
+}
+/* line 3215, backend.scss */
+.one-order .user-info .name {
+  color: #333;
+}
+/* line 3219, backend.scss */
+.one-order .status {
+  margin-bottom: 17px;
+  display: inline-block;
+}
+/* line 3222, backend.scss */
+.one-order .status.orange {
+  color: #fb6b00;
+}
+/* line 3225, backend.scss */
+.one-order .status.green {
+  color: #009f00;
+}
+/* line 3228, backend.scss */
+.one-order .status.red {
+  color: #ff0000;
+}
+/* line 3231, backend.scss */
+.one-order .status.gray {
+  color: gray;
+}
+
+/* line 3238, backend.scss */
+.one-order-info .id-status {
+  margin-left: 2px;
+}
+/* line 3241, backend.scss */
+.one-order-info .name {
+  margin-top: 1px;
+}
+/* line 3243, backend.scss */
+.one-order-info .name span {
+  margin-right: 3px;
+}
+/* line 3247, backend.scss */
+.one-order-info .email {
+  margin-top: 1px;
+}
+/* line 3250, backend.scss */
+.one-order-info .phone {
+  margin-top: 2px;
+}
+/* line 3252, backend.scss */
+.one-order-info .phone span {
+  margin-right: 1px;
+}
+
+/* line 3262, backend.scss */
+#modal_copy_products #modal_tree li a i {
+  margin-left: -26px;
+}
+/* line 3268, backend.scss */
+#modal_copy_products .icon-admin-folder-orange {
+  margin-top: -6px;
+}
+
+/* line 3273, backend.scss */
+.qq-uploader {
+  width: 145px;
+}
+/* line 3274, backend.scss */
+.qq-uploader .qq-upload-button {
+  left: 27px;
+}
+
+/* line 3281, backend.scss */
+#user_setting #load_from_disk {
+  display: none;
+  width: 90px;
+  z-index: 1;
+  margin-left: 25px;
+}
+/* line 3287, backend.scss */
+#user_setting span.help-inline {
+  position: static;
+}
+/* line 3290, backend.scss */
+#user_setting #profile {
+  padding-top: 20px;
+}
+/* line 3292, backend.scss */
+#user_setting #profile .film {
+  padding-top: 20px;
+  position: absolute;
+  top: 0;
+  left: -16px;
+  background: rgba(255, 255, 255, 0.9);
+  width: 140px;
+  height: 140px;
+  display: none;
+}
+/* line 3302, backend.scss */
+#user_setting #profile .information {
+  position: absolute;
+  margin-top: 150px;
+}
+/* line 3305, backend.scss */
+#user_setting #profile .information label.control-label {
+  padding-left: 0;
+  padding-top: 0;
+  text-align: left;
+  padding-right: 25px;
+}
+/* line 3313, backend.scss */
+#user_setting #profile .avatar .photo-label {
+  margin-left: -54px;
+  padding-top: 0;
+}
+/* line 3317, backend.scss */
+#user_setting #profile .avatar .avatar {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  left: 155px;
+  top: 20px;
+}
+/* line 3324, backend.scss */
+#user_setting #profile .avatar .avatar:hover .film {
+  display: block;
+}
+/* line 3326, backend.scss */
+#user_setting #profile .avatar .avatar:hover .film #load_from_disk {
+  display: block;
+  z-index: 9999;
+}
+/* line 3333, backend.scss */
+#user_setting #profile .avatar #FineUploader, #user_setting #profile .avatar .qq-uploader {
+  top: 10px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+/* line 3339, backend.scss */
+#user_setting #profile .avatar .qq-upload-list {
+  display: none;
+}
+/* line 3342, backend.scss */
+#user_setting #profile .avatar .qq-upload-drop-area {
+  margin-left: 140px;
+}
+/* line 3345, backend.scss */
+#user_setting #profile .avatar img#avatar {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  overflow: hidden;
+  z-index: 1000;
+}
+/* line 3351, backend.scss */
+#user_setting #profile .avatar img#avatar:hover {
+  opacity: 0.3;
+}
+/* line 3356, backend.scss */
+#user_setting #profile .close-img {
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 116px;
+  cursor: pointer;
+}
+/* line 3363, backend.scss */
+#user_setting #profile .photo-company {
+  height: 140px;
+}
+/* line 3365, backend.scss */
+#user_setting #profile .photo-company .film {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 3371, backend.scss */
+#user_setting #profile .photo-company .film p {
+  text-align: center;
+  width: 140px;
+  margin-left: -14px;
+}
+/* line 3379, backend.scss */
+#user_setting #profile .photo-company label, #user_setting #profile .information label {
+  padding-right: 30px;
+}
+
+/* line 3386, backend.scss */
+.sweet-alert .icon.success.animate .placeholder {
+  top: 10px;
+}
+
+/* line 3391, backend.scss */
+.sweet-alert .icon.error .line {
+  top: 19px;
+}
+
+/* line 3396, backend.scss */
+#orders-filter, #orders-filter-payments {
+  position: absolute;
+  width: 913px;
+  left: 15px;
+}
+/* line 3400, backend.scss */
+#orders-filter .buttons-block button, #orders-filter-payments .buttons-block button {
+  margin-top: 16px;
+}
+
+/* line 3407, backend.scss */
+.main-title-block.module-title .top-filter #orders-filter-payments .fa {
+  margin-top: 3px;
+}
+
+/* line 3414, backend.scss */
+#orders-filter-payments input {
+  height: 34px;
+}
+/* line 3422, backend.scss */
+#orders-filter-payments .o-status .dropdown-menu.inner li:nth-child(2) a {
+  color: #009f00;
+}
+/* line 3427, backend.scss */
+#orders-filter-payments .o-status .dropdown-menu.inner li:nth-child(3) a {
+  color: #fb6b00;
+}
+/* line 3432, backend.scss */
+#orders-filter-payments .o-status .dropdown-menu.inner li:nth-child(4) a {
+  color: #ff0000;
+}
+/* line 3437, backend.scss */
+#orders-filter-payments .o-status .dropdown-menu.inner li:nth-child(5) a {
+  color: #999;
+}
+
+/* line 3446, backend.scss */
+.top-filter #review-filter {
+  position: absolute;
+  width: 913px;
+  top: 5px;
+}
+/* line 3451, backend.scss */
+.top-filter #review-filter .period .from, .top-filter #review-filter .period .to {
+  width: 90px;
+}
+
+/* line 3461, backend.scss */
+.main-title-block.module-title .container #review-filter .buttons {
+  width: 25%;
+}
+/* line 3463, backend.scss */
+.main-title-block.module-title .container #review-filter .buttons .btn span {
+  font-size: 14px;
+}
+/* line 3466, backend.scss */
+.main-title-block.module-title .container #review-filter .buttons > * {
+  height: 25px;
+}
+/* line 3469, backend.scss */
+.main-title-block.module-title .container #review-filter .buttons a#reset {
+  margin-right: 40px;
+}
+
+/* line 3478, backend.scss */
+#catalog-tree-form-form .form-group.image-file, #catalog-products-product-form .form-group.image-file {
+  margin-left: 0;
+}
+/* line 3481, backend.scss */
+#catalog-tree-form-form .qq-upload-success, #catalog-products-product-form .qq-upload-success {
+  display: none;
+}
+/* line 3484, backend.scss */
+#catalog-tree-form-form .qq-uploader .qq-upload-button, #catalog-products-product-form .qq-uploader .qq-upload-button {
+  left: 22px;
+}
+/* line 3487, backend.scss */
+#catalog-tree-form-form .qq-upload-success, #catalog-products-product-form .qq-upload-success {
+  display: none;
+}
+/* line 3490, backend.scss */
+#catalog-tree-form-form li.image, #catalog-products-product-form li.image {
+  position: relative;
+  margin: 0 15px 15px;
+}
+/* line 3494, backend.scss */
+#catalog-tree-form-form .fa-close, #catalog-products-product-form .fa-close {
+  position: absolute;
+  margin-left: -24px;
+  cursor: pointer;
+  top: 0;
+  left: 100%;
+}
+
+/* line 3505, backend.scss */
+.form-structure #structure-_form-form .form-group.image-file {
+  margin-left: 0;
+}
+/* line 3508, backend.scss */
+.form-structure #structure-_form-form .qq-upload-success {
+  display: none;
+}
+/* line 3513, backend.scss */
+.form-structure #structure-_form-form .qq-uploader .qq-upload-button {
+  left: 22px;
+}
+/* line 3516, backend.scss */
+.form-structure #structure-_form-form .qq-upload-success {
+  display: none;
+}
+/* line 3519, backend.scss */
+.form-structure #structure-_form-form li.image {
+  position: relative;
+  margin: 0 15px 15px;
+}
+/* line 3523, backend.scss */
+.form-structure #structure-_form-form .fa-close {
+  position: absolute;
+  margin-left: -24px;
+  cursor: pointer;
+  top: 0;
+  left: 100%;
+}
+/* line 3532, backend.scss */
+.form-structure .add-children.btn.btn-action.btn-add-menu:hover {
+  background: linear-gradient(to top, #1849e4, #4265e4);
+}
+
+/* line 3539, backend.scss */
+.settings_price_opt .opt_price_cont {
+  padding-right: 0;
+}
+/* line 3541, backend.scss */
+.settings_price_opt .opt_price_cont input {
+  width: 108px;
+  float: left;
+  color: #1242e3;
+}
+/* line 3546, backend.scss */
+.settings_price_opt .opt_price_cont label {
+  width: 108px;
+}
+/* line 3550, backend.scss */
+.settings_price_opt span {
+  color: #979797;
+  font-size: 14px;
+  margin-left: 5px;
+  margin-right: -5px;
+  margin-top: 8px;
+  display: block;
+  float: left;
+}
+/* line 3559, backend.scss */
+.settings_price_opt .text_cont {
+  width: 220px;
+}
+/* line 3565, backend.scss */
+.settings_price_opt .count_container {
+  width: 17%;
+}
+/* line 3567, backend.scss */
+.settings_price_opt .count_container input {
+  width: 55px;
+  float: left;
+  padding-left: 7px;
+}
+
+/* line 3575, backend.scss */
+.root-folder-orange.add_list {
+  margin-left: -30px;
+}
+
+/* line 3580, backend.scss */
+.swal2-modal {
+  width: 114px;
+  margin-left: -150px;
+  margin-top: 0px;
+  padding: 13px;
+  overflow: hidden;
+}
+/* line 3586, backend.scss */
+.swal2-modal .swal2-image {
+  display: none;
+}
+/* line 3589, backend.scss */
+.swal2-modal .swal2-content {
+  display: none;
+}
+/* line 3592, backend.scss */
+.swal2-modal h2 {
+  display: none;
+}
+/* line 3595, backend.scss */
+.swal2-modal .swal2-icon {
+  margin: 0;
+}
+/* line 3598, backend.scss */
+.swal2-modal .swal2-icon.swal2-success .line.long {
+  top: 21px;
+}
+/* line 3601, backend.scss */
+.swal2-modal .swal2-icon.swal2-success .line.tip {
+  top: 29px;
+}
+
+/* line 3606, backend.scss */
+#sort_user_main, #sort-main {
+  height: 27px;
+  background: linear-gradient(to top, #e8e8e8, #ffffff);
+  float: right;
+  border: 1px solid #d1d1d1;
+  border-radius: 3px;
+  margin-right: 15px;
+}

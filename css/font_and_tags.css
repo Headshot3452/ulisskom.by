@@ -1,0 +1,80 @@
+@import url(/css/font-awesome.css);
+@font-face {
+  font-family: 'latoregular';
+  src: url("/fonts/lato/lato-regular.eot");
+  src: url("/fonts/lato/lato-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/lato/lato-regular.woff") format("woff"), url("/fonts/lato/lato-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'latobold';
+  src: url("/fonts/lato/lato-bold.eot");
+  src: url("/fonts/lato/lato-bold.eot?#iefix") format("embedded-opentype"), url("/fonts/lato/lato-bold.woff") format("woff"), url("/fonts/lato/lato-bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'latoitalic';
+  src: url("/fonts/lato/lato-italic.eot");
+  src: url("/fonts/lato/lato-italic.eot?#iefix") format("embedded-opentype"), url("/fonts/lato/lato-italic.woff") format("woff"), url("/fonts/lato/lato-italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/* line 33, font_and_tags.scss */
+#toTop {
+  display: none;
+  position: fixed;
+  background-color: #418bc9;
+  opacity: 0.5;
+  padding: 10px 14px;
+  border-radius: 100%;
+  color: white;
+  bottom: 80px;
+  right: 20px;
+  cursor: pointer; }
+  /* line 44, font_and_tags.scss */
+  #toTop:hover {
+    opacity: 1; }
+
+/* line 49, font_and_tags.scss */
+body {
+  font-family: 'latoregular';
+  word-wrap: break-word; }
+
+/* line 53, font_and_tags.scss */
+h1, h2, h3, h4, h5,
+b, strong, label, th {
+  font-weight: normal;
+  font-family: 'latobold'; }
+
+/* line 59, font_and_tags.scss */
+i {
+  font-style: normal;
+  font-family: 'latoitalic'; }
+
+/* line 64, font_and_tags.scss */
+h1 {
+  font-size: 30px;
+  line-height: 1.2em; }
+
+/* line 69, font_and_tags.scss */
+h2 {
+  font-size: 24px;
+  line-height: 1.2em; }
+
+/* line 74, font_and_tags.scss */
+h3 {
+  font-size: 18px;
+  line-height: 1.2em; }
+
+/* line 79, font_and_tags.scss */
+h4 {
+  font-size: 16px;
+  line-height: 1.2em; }
+
+/* line 84, font_and_tags.scss */
+h5 {
+  font-size: 14px;
+  line-height: 1.2em; }
+
+/* line 89, font_and_tags.scss */
+h6 {
+  font-size: 12px;
+  line-height: 1.2em; }

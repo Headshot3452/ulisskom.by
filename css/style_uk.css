@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'uk-uslugi';
+  src:  url('/fonts/uk-uslugi.eot?1ebzzr');
+  src:  url('/fonts/uk-uslugi.eot?1ebzzr#iefix') format('embedded-opentype'),
+    url('/fonts/uk-uslugi.ttf?1ebzzr') format('truetype'),
+    url('/fonts/uk-uslugi.woff?1ebzzr') format('woff'),
+    url('/fonts/uk-uslugi.svg?1ebzzr#uk-uslugi') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="uk-"], [class*=" uk-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'uk-uslugi' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.uk-door:before {
+  content: "\e900";
+}
+.uk-drill:before {
+  content: "\e901";
+}
+.uk-truck:before {
+  content: "\e902";
+}
+

@@ -1,0 +1,86 @@
+$icon-admin-spacing: 20px;
+@import "icon-admin/*.png";
+@include all-icon-admin-sprites;
+
+.icon-admin-add-product, .icon-admin-add-category, .icon-admin-move-product, .icon-admin-copy-product, .icon-admin-catalog-menu {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+
+.icon-admin-power-switch-green, .icon-admin-power-switch-red {
+  width: 14px;
+  height: 15px;
+  display: inline-block;
+}
+
+.icon-admin-email {
+  width: 13px;
+  height: 10px;
+  display: inline-block;
+}
+
+.icon-admin-phone {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+
+.icon-admin-user {
+  width: 11px;
+  height: 12px;
+  display: inline-block;
+}
+
+.icon-admin-menu-catalog-tree {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+}
+
+.icon-admin-folder-gray, .icon-admin-folder-orange, .icon-admin-folder-news {
+  width: 28px;
+  height: 23px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 6px;
+  margin-right: 6px;
+  margin-top: -5px;
+}
+
+.icon-admin-folder-news {
+  width: 20px;
+}
+
+.icon-admin-settings {
+  display: block;
+  width: 18px;
+  height: 18px;
+}
+
+.icon-admin-delete {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+}
+
+.icon-admin-add-menu-item {
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+}
+
+.icon-admin-menu-folder {
+  float: left;
+  width: 25px;
+  height: 29px;
+  margin: 0 10px 0 5px;
+}
+
+.icon-admin-menu-folder-big {
+  display: inline-block;
+  width: 42px;
+  height: 48px;
+  margin: -13px 17px 0 17px;
+}

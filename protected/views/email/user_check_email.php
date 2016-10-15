@@ -1,0 +1,1 @@
+Thank you for registering for the <?php echo $_SERVER['HTTP_HOST']; ?>. Please, <?php echo CHtml::link('click here',Yii::app()->createAbsoluteUrl($action,array('hash'=>$model->hash))); ?> to confirm your registration.
